@@ -3,8 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Http\Request;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,12 +18,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// admin
+// admin profile
+Route::get('/admin/profile',[AdminController::class, 'adminProfile'])->middleware(['auth', 'verified'])->name('admin.profile');
+Route::post('/admin/profile/update',[AdminController::class, 'AdminProfileUpdate'])->name('admin.profile.update');
+Route::get('/admin/change/password', [AdminController::class, 'AdminChangePassword'])->name('admin.change.password');
+  Route::post('/admin/update/password', [AdminController::class, 'AdminUpdatePassword'])->name('update.password');
 Route::get('/dashboard',[AdminController::class, 'adminDashboard'])->middleware(['auth', 'verified'])->name('dashboard');
 Route::get('/admin/logout', [AdminController::class, 'adminLogout'])->name('admin.logout');
 
-
-
+  
 
 
 Route::middleware('auth')->group(function () {
