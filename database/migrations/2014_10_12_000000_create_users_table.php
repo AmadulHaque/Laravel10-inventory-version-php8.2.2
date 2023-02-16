@@ -18,10 +18,13 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('username')->unique();
-            $table->timestamp('address')->nullable();
-            $table->timestamp('phone')->nullable();
-            $table->timestamp('photo')->nullable();
-            $table->timestamp('role')->nullable();
+            $table->string('address')->nullable();
+            $table->timestamp('email_verified_at')->nullable();
+            $table->integer('email_verified')->default(0);
+            $table->string('verification_code')->nullable();
+            $table->string('phone')->nullable();
+            $table->string('photo')->nullable();
+            $table->string('role')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
