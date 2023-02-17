@@ -120,7 +120,7 @@
 			</div>
 		   </div>
 		</div>
-   
+
 		<div class="col-12 col-lg-4 col-xl-4 d-flex">
 		   <div class="card radius-10 overflow-hidden w-100">
 			  <div class="card-body">
@@ -218,6 +218,7 @@
 
 @endsection()
 @push('js')
+ <script src="{{asset('backend/assets/js/index.js')}}"></script>
 <script type="text/javascript">
 		$(function() {
 			$(".knob").knob();
