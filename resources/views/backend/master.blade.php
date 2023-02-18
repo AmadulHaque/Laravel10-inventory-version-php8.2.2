@@ -92,6 +92,10 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 	<!--app JS-->
 
+
+	<script src="{{ asset('backend/assets/js/handlebars.js') }}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js" ></script>
+
 	<script type="text/javascript">
 		$(function(){
 			$(document).ajaxStart(function() { Pace.start(); });
@@ -140,6 +144,11 @@
 		})
 	</script>
 	<script src="{{asset('backend/assets/js/app.js')}}"></script>
+	<script type="text/javascript">
+		$(function() {
+			Pace.stop();
+		})
+	</script>
 	@stack('js')
 
 </body>

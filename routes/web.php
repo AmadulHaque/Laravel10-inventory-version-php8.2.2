@@ -8,6 +8,8 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\UnitController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\PurchaseController;
+use App\Http\Controllers\DefaultController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -73,6 +75,27 @@ Route::controller(ProductController::class)->group(function () {
   Route::post('/product/update','ProductUpdate')->name('ProductUpdate');
   Route::get('/product/remove/{id}','ProductRemove')->name('ProductRemove');
 });
+
+
+Route::controller(PurchaseController::class)->group(function () {
+  Route::get('/purchases','PurchaseAll')->name('PurchaseAll');
+  Route::get('/purchase/add','PurchaseAdd')->name('PurchaseAdd');
+  Route::post('/purchase-store','PurchaseStore')->name('PurchaseStore');
+
+});
+
+// Default All Route
+Route::controller(DefaultController::class)->group(function () {
+    Route::get('/get-category', 'GetCategory')->name('get-category');
+    Route::get('/get-brand', 'GetBrand')->name('get-brand');
+    Route::get('/get-product', 'GetProduct')->name('get-product');
+    Route::get('/check-product', 'GetStock')->name('check-product-stock');
+
+});
+
+
+
+
 
 
 require __DIR__.'/auth.php';

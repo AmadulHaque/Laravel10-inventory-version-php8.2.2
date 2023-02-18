@@ -106,5 +106,23 @@
 					</ul>
 				</li>
 
+				<!--Manage Purchase  -->
+				<li>
+					<a href="javascript:;" class="has-arrow">
+						<div class="parent-icon"><i class="bx bx-category"></i>
+						</div>
+						<div class="menu-title">Manage Purchase</div>
+					</a>
+					<ul>
+						<li> <a href="{{route('PurchaseAll')}}"><i class="bx bx-right-arrow-alt"></i>All Purchase</a>
+						</li>
+						<li> <a href="{{route('PurchaseAdd')}}"><i class="bx bx-right-arrow-alt"></i>Add Purchase</a>
+						</li>
+					</ul>
+				</li>
+
+
+
+
 			</ul>
 		</div>
