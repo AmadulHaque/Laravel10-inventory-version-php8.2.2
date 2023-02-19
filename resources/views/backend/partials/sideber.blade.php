@@ -118,6 +118,8 @@
 						</li>
 						<li> <a href="{{route('PurchaseAdd')}}"><i class="bx bx-right-arrow-alt"></i>Add Purchase</a>
 						</li>
+						<li> <a href="{{route('PurchasePending')}}"><i class="bx bx-right-arrow-alt"></i> Purchase Pending</a>
+						</li>
 					</ul>
 				</li>
 

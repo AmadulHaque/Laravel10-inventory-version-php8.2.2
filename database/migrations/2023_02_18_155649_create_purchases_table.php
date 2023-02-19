@@ -22,10 +22,10 @@ return new class extends Migration
           $table->string('purchase_no');
           $table->date('date');
           $table->string('description')->nullable();
-          $table->double('buying_qty');
-          $table->double('unit_price');
-          $table->double('buying_price');
-          $table->string('payment');
+          $table->double('buying_qty')->nullable();
+          $table->double('unit_price')->nullable();
+          $table->double('buying_price')->nullable();
+          $table->string('payment')->nullable();
           $table->tinyInteger('status')->default('0')->comment('0=Pending, 1=Approved');
           $table->integer('created_by')->nullable();
           $table->integer('updated_by')->nullable();

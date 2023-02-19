@@ -33,11 +33,10 @@
           @elseif($item->status == '1')<span class="btn btn-success">Approved</span>@endif
         </td>
         <td>
-          <div class="col">
-            @if($item->status == '0')
-                <button type="button" class="btn btn-outline-danger btn-sm delete_row" id_val="{{$item->id}}" ><i class="lni lni-trash"></i></button>
-            @endif
-          </div>
+
+      @if($item->status == '0')
+      <a href="{{ route('purchase.approve',$item->id) }} " class="btn btn-danger btn-sm" title="Approved" id="ApproveBtn"><i class="lni lni-checkmark"></i></a>
+      @endif
         </td>
     </tr>
     @endforeach

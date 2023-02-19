@@ -9,16 +9,17 @@
   <img class="" src="{{asset('images/loader/loader2.svg')}}"/>
 </div>
 <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
-  <div class="breadcrumb-title pe-3">Purchase</div>
+  <div class="breadcrumb-title pe-3">Purchase Pending</div>
   <div class="ps-3">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb mb-0 p-0">
         <li class="breadcrumb-item"><a href="/dashboard"><i class="bx bx-home-alt"></i></a>
         </li>
-        <li class="breadcrumb-item active" aria-current="page">All  Purchase</li>
+        <li class="breadcrumb-item active" aria-current="page">All  Purchase Pending</li>
       </ol>
     </nav>
   </div>
+  
 </div>
 <!--end breadcrumb-->
 <hr/>
@@ -32,28 +33,6 @@
       <tr>
         <td><img class="d-block m-auto text-center" src="{{asset('images/loader/loader3.svg')}}"/></td>
       </tr>
-    </div>
-  </div>
-</div>
-
-<!-- add modal -->
-@include( 'backend.components.purchase.add')
-<!-- Modal -->
-<div class="modal fade" id="EditPurchaseModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Update Product</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <form method="post" id="PurchaseUpdate">
-				@csrf
-				<div id="edit_val_get" class="modal-body"></div>
-        <div  class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary">Update Purchase</button>
-        </div>
-      </form>
     </div>
   </div>
 </div>
@@ -79,7 +58,7 @@
        var perPage = $("#perpage").val();
       $.ajax({
            type: 'get',
-           url: "{{ url('/purchases') }}?page="+page,
+           url: "{{ url('/purchase/pending') }}?page="+page,
            dataType: 'html',
            data: {
                search: search,

@@ -277,7 +277,7 @@
 	      });
    });
 
-	 // edit row
+	 //  delete row
 	 $(document).on('click', '.delete_row', function(e){
 		 let id = $(this).attr('id_val');
 
@@ -314,7 +314,7 @@
 
 	 });
 
-	 // delete row
+	 // edit row
 	 $(document).on('click', '.edit_row', function(e){
 		 let id = $(this).attr('id_val');
 		 	$('.full_scren').removeClass('d-none');

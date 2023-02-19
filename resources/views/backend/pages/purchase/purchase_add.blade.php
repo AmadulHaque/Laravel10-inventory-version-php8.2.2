@@ -77,6 +77,7 @@
             <thead>
               <tr>
                 <th>Category</th>
+                <th>Brand</th>
                 <th>Product Name </th>
                 <th>PSC/KG</th>
                 <th>Unit Price </th>
@@ -88,7 +89,7 @@
             <tbody id="addRow" class="addRow"></tbody>
             <tbody>
               <tr>
-                <td colspan="5"></td>
+                <td colspan="6"></td>
                 <td>
                   <input type="text" name="estimated_amount" value="0" id="estimated_amount" class="form-control estimated_amount" readonly style="background-color: #ddd;">
                 </td>
@@ -121,6 +122,10 @@
         <input type="hidden" name="category_id[]" value="@{{category_id}}">
         @{{ category_name }}
     </td>
+    <td>
+        <input type="hidden" name="brand_id[]" value="@{{brand_id}}">
+        @{{ brand_name }}
+    </td>
 
      <td>
         <input type="hidden" name="product_id[]" value="@{{product_id}}">
@@ -144,7 +149,7 @@
     </td>
 
      <td>
-        <i class="btn btn-danger btn-sm fas fa-window-close removeeventmore"></i>
+        <button type="button" class="btn btn-outline-danger btn-sm delete_row removeeventmore" id_val="30"><i class="lni lni-trash"></i></button>
     </td>
 
     </tr>
@@ -161,6 +166,8 @@
             var purchase_no = $('#purchase_no').val();
             var supplier_id = $('#supplier_id').val();
             var category_id  = $('#category_id').val();
+            var brand_id  = $('#brand_id').val();
+            var brand_name = $('#brand_id').find('option:selected').text();
             var category_name = $('#category_id').find('option:selected').text();
             var product_id = $('#product_id').val();
             var product_name = $('#product_id').find('option:selected').text();
@@ -194,7 +201,8 @@
                     category_name:category_name,
                     product_id:product_id,
                     product_name:product_name,
-                    product_img:product_img
+                    brand_id:brand_id,
+                    brand_name:brand_name,
                  };
                  var html = tamplate(data);
                  $("#addRow").append(html);
@@ -270,7 +278,7 @@
                 success:function(data){
                     var html = '<option value=" ">Select Product</option>';
                     $.each(data,function(key,v){
-                        html += '<option img="'+v.image+'" value=" '+v.id+' ">'+v.name+'</option>';
+                        html += '<option  value=" '+v.id+' ">'+v.name+'</option>';
                     });
                     $('#product_id').html(html);
                 }

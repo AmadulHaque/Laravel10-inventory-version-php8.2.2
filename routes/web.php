@@ -81,6 +81,9 @@ Route::controller(PurchaseController::class)->group(function () {
   Route::get('/purchases','PurchaseAll')->name('PurchaseAll');
   Route::get('/purchase/add','PurchaseAdd')->name('PurchaseAdd');
   Route::post('/purchase-store','PurchaseStore')->name('PurchaseStore');
+  Route::get('/purchase/remove/{id}','PurchaseRemove')->name('PurchaseRemove');
+  Route::get('/purchase/pending','PurchasePending')->name('PurchasePending');
+  Route::get('/purchase/approve/{id}', 'PurchaseApprove')->name('purchase.approve');
 
 });
 
