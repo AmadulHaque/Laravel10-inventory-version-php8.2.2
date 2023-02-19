@@ -10,6 +10,7 @@ use App\Http\Controllers\UnitController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PurchaseController;
 use App\Http\Controllers\DefaultController;
+use App\Http\Controllers\InvoiceController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -87,6 +88,14 @@ Route::controller(PurchaseController::class)->group(function () {
 
 });
 
+
+// Invoice
+Route::controller(InvoiceController::class)->group(function () {
+  Route::get('invoices','InvoiceAll')->name('InvoiceAll');
+  Route::get('/invoice/add','InvoiceAdd')->name('InvoiceAdd');
+  Route::post('/invoice/store','InvoiceStore')->name('InvoiceStore');
+  Route::get('/invoice/pending/list','InvoicePendinglist')->name('invoice.pending.list');
+});
 // Default All Route
 Route::controller(DefaultController::class)->group(function () {
     Route::get('/get-category', 'GetCategory')->name('get-category');
@@ -95,9 +104,6 @@ Route::controller(DefaultController::class)->group(function () {
     Route::get('/check-product', 'GetStock')->name('check-product-stock');
 
 });
-
-
-
 
 
 

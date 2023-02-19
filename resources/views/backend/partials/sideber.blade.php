@@ -123,6 +123,21 @@
 					</ul>
 				</li>
 
+				<!--Manage Purchase  -->
+				<li>
+					<a href="javascript:;" class="has-arrow">
+						<div class="parent-icon"><i class="bx bx-category"></i>
+						</div>
+						<div class="menu-title">Manage Invoice</div>
+					</a>
+					<ul>
+						<li> <a href="{{route('InvoiceAll')}}"><i class="bx bx-right-arrow-alt"></i>All Invoice</a>
+						</li>
+						<li> <a href="{{route('InvoiceAdd')}}"><i class="bx bx-right-arrow-alt"></i>Add Invoice</a>
+						</li>
+					</ul>
+				</li>
+
 
 
 
