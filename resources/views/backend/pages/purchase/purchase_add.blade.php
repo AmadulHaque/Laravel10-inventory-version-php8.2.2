@@ -30,7 +30,7 @@
           <div class="col-md-4">
             <div class="md-3">
               <label for="example-text-input" class="form-label">Supplier Name </label>
-              <select id="supplier_id" name="supplier_id" class="form-select select2" aria-label="Default select example">
+              <select id="supplier_id" name="supplier_id" class="select form-select " aria-label="Default select example">
                 <option selected="">Open this select menu</option> @foreach($supplier as $supp) <option value="{{ $supp->id }}">{{ $supp->name }}</option> @endforeach
               </select>
             </div>
@@ -38,7 +38,7 @@
           <div class="col-md-4">
             <div class="md-3">
               <label for="example-text-input" class="form-label">Category Name </label>
-              <select name="category_id" id="category_id" class="submitable form-select select2" aria-label="Default select example">
+              <select name="category_id" id="category_id" class="select submitable form-select " aria-label="Default select example">
                 <option selected=" ">Open this select menu</option>
               </select>
             </div>
@@ -46,7 +46,7 @@
           <div class="col-md-4">
             <div class="md-3">
               <label for="example-text-input" class="form-label">Brand Name </label>
-              <select name="brand_id" id="brand_id" class="submitable form-select select2" aria-label="Default select example">
+              <select name="brand_id" id="brand_id" class="select submitable form-select " aria-label="Default select example">
                 <option selected=" ">Open this select menu</option>
               </select>
             </div>
@@ -54,7 +54,7 @@
           <div class="col-md-4">
             <div class="md-3">
               <label for="example-text-input" class="form-label">Product Name </label>
-              <select name="product_id" id="product_id" class="form-select select2" aria-label="Default select example">
+              <select name="product_id" id="product_id" class="select form-select " aria-label="Default select example">
                 <option selected="">Open this select menu</option>
               </select>
             </div>
@@ -284,6 +284,14 @@
                 }
             })
         });
+    });
+</script>
+<script>
+    $('.select').select2({
+        theme: 'bootstrap4',
+        width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+        placeholder: $(this).data('placeholder'),
+        allowClear: Boolean($(this).data('allow-clear')),
     });
 </script>
 @endpush()
