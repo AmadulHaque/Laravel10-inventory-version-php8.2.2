@@ -139,7 +139,8 @@
 						</li>
 						<li> <a href="{{route('InvoicePrintList')}}"><i class="bx bx-right-arrow-alt"></i>Invoice Print List</a>
 						</li>
-
+						<li> <a href="{{route('daily.invoice.report')}}"><i class="bx bx-right-arrow-alt"></i>Daily Invoice Report</a>
+						</li>
 					</ul>
 				</li>
 

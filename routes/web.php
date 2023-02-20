@@ -94,13 +94,17 @@ Route::controller(InvoiceController::class)->group(function () {
   Route::get('invoices','InvoiceAll')->name('InvoiceAll');
   Route::get('/invoice/add','InvoiceAdd')->name('InvoiceAdd');
   Route::post('/invoice/store','InvoiceStore')->name('InvoiceStore');
+
   Route::get('/invoice/pending/list','InvoicePendinglist')->name('InvoicePendinglist');
   Route::get('/invoice/remove/{id}','InvoiceRemove')->name('InvoiceRemove');
   Route::get('/invoice/approve/{id}','InvoiceApprove')->name('InvoiceApprove');
+
   Route::post('/invoice/approve/store/{id}','ApprovalStore')->name('ApprovalStore');
   Route::get('/invoice/print/list','InvoicePrintList')->name('InvoicePrintList');
   Route::get('/print/invoice/{id}', 'PrintInvoice')->name('print.invoice');
 
+  Route::get('/daily/invoice/report', 'DailyInvoiceReport')->name('daily.invoice.report');
+  Route::get('/daily/invoice/pdf', 'DailyInvoicePdf')->name('daily.invoice.pdf');
 });
 
 // Default All Route
