@@ -94,15 +94,18 @@ Route::controller(InvoiceController::class)->group(function () {
   Route::get('invoices','InvoiceAll')->name('InvoiceAll');
   Route::get('/invoice/add','InvoiceAdd')->name('InvoiceAdd');
   Route::post('/invoice/store','InvoiceStore')->name('InvoiceStore');
-  Route::get('/invoice/pending/list','InvoicePendinglist')->name('invoice.pending.list');
+  Route::get('/invoice/pending/list','InvoicePendinglist')->name('InvoicePendinglist');
+  Route::get('/invoice/remove/{id}','InvoiceRemove')->name('InvoiceRemove');
+  Route::get('/invoice/approve/{id}','InvoiceApprove')->name('InvoiceApprove');
+  Route::post('/invoice/approve/store/{id}','ApprovalStore')->name('ApprovalStore');
 });
+
 // Default All Route
 Route::controller(DefaultController::class)->group(function () {
     Route::get('/get-category', 'GetCategory')->name('get-category');
     Route::get('/get-brand', 'GetBrand')->name('get-brand');
     Route::get('/get-product', 'GetProduct')->name('get-product');
     Route::get('/check-product', 'GetStock')->name('check-product-stock');
-
 });
 
 

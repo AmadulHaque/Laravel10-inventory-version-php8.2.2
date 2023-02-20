@@ -135,8 +135,10 @@
 						</li>
 						<li> <a href="{{route('InvoiceAdd')}}"><i class="bx bx-right-arrow-alt"></i>Add Invoice</a>
 						</li>
+						<li> <a href="{{route('InvoicePendinglist')}}"><i class="bx bx-right-arrow-alt"></i>Invoice Pending</a>
+						</li>
 					</ul>
-				</li>
+				</li> 
 
 
 
