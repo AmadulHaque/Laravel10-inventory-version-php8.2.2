@@ -143,7 +143,6 @@ class InvoiceController extends Controller
 
 
     public function ApprovalStore(Request $request, $id){
-
         foreach($request->selling_qty as $key => $val){
             $invoice_details = InvoiceDetail::where('id',$key)->first();
             $product = Product::where('id',$invoice_details->product_id)->first();
@@ -168,8 +167,37 @@ class InvoiceController extends Controller
             $invoice->save();
         });
         $notification = array( 'message' => 'Invoice Approve Successfully',  'alert-type' => 'success');
-        return redirect()->route('InvoicePendinglist')->with($notification);  
+        return redirect()->route('InvoicePendinglist')->with($notification);
 
     } // End Method
+
+    public function InvoicePrintList(Request $request)
+    {
+      if ($request->ajax()) {
+          $search = @$request->search;
+          $perPage = @$request->perPage ? $request->perPage : 10;
+          $data=Invoice::orderBy('date','desc')->orderBy('id','desc')->where('status','1');
+          $datas = $data->paginate($perPage);
+          return view('backend.components.invoice.table_print',compact('datas'));
+      }
+      return view('backend.pages.invoice.InvoicePrintList');
+    }
+
+
+    public function PrintInvoice($id){
+      $invoice = Invoice::with('invoice_details')->findOrFail($id);
+      return view('backend.pages.pdf.invoice_pdf',compact('invoice'));
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 }

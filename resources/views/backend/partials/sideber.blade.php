@@ -137,8 +137,11 @@
 						</li>
 						<li> <a href="{{route('InvoicePendinglist')}}"><i class="bx bx-right-arrow-alt"></i>Invoice Pending</a>
 						</li>
+						<li> <a href="{{route('InvoicePrintList')}}"><i class="bx bx-right-arrow-alt"></i>Invoice Print List</a>
+						</li>
+
 					</ul>
-				</li> 
+				</li>
 
 
 

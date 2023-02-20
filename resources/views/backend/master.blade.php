@@ -25,7 +25,7 @@
 	<link href="{{asset('backend/assets/plugins/select2/css/select2.min.css')}}" rel="stylesheet" />
 	<link href="{{asset('backend/assets/plugins/select2/css/select2-bootstrap4.css')}}" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
-	<title>Rukada - Responsive Bootstrap 5 Admin Template</title>
+	<title>Mona Inventory Management</title>
 </head>
 <style media="screen">
 .full_scren {
