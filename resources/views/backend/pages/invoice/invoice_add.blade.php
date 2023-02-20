@@ -31,7 +31,7 @@
             <div class="md-3">
               <label for="example-text-input" class="form-label">Category Name </label>
               <select name="category_id" id="category_id" class="submitable form-select select" aria-label="Default select example">
-                <option value=" " selected="">Open this select menu</option> @foreach($category as $cat) <option value="{{ $cat->id }}">{{ $cat->name }}</option> @endforeach
+                <option value="0" selected="">Open this select menu</option> @foreach($category as $cat) <option value="{{ $cat->id }}">{{ $cat->name }}</option> @endforeach
               </select>
             </div>
           </div>
@@ -39,7 +39,7 @@
             <div class="md-3">
               <label for="example-text-input" class="form-label">Brand Name </label>
               <select name="brand_id" id="brand_id" class=" submitable form-select select" aria-label="Default select example">
-                <option selected="" value=" " >Open this select menu</option> @foreach($brand as $cat) <option value="{{ $cat->id }}">{{ $cat->name }}</option> @endforeach
+                <option selected="" value="0" >Open this select menu</option> @foreach($brand as $cat) <option value="{{ $cat->id }}">{{ $cat->name }}</option> @endforeach
               </select>
             </div>
           </div>
@@ -47,7 +47,7 @@
             <div class="md-3">
               <label for="example-text-input" class="form-label">Product Name </label>
               <select name="product_id" id="product_id" class="form-select select" aria-label="Default select example">
-                <option selected="">Open this select menu</option>
+                <option selected=""value="0" >Open this select menu</option>
               </select>
             </div>
           </div>
@@ -200,6 +200,7 @@
         $(document).on("click",".addeventmore", function(){
             var date = $('#date').val();
             var invoice_no = $('#invoice_no').val();
+            var brand_id  = $('#brand_id').val();
             var category_id  = $('#category_id').val();
             var category_name = $('#category_id').find('option:selected').text();
             var product_id = $('#product_id').val();
@@ -208,14 +209,17 @@
                 $.notify("Date is Required" ,  {globalPosition: 'top right', className:'error' });
                 return false;
                  }
-
-                  if(category_id == ''){
-                $.notify("Category is Required" ,  {globalPosition: 'top right', className:'error' });
-                return false;
-                 }
-                  if(product_id == ''){
-                $.notify("Product Field is Required" ,  {globalPosition: 'top right', className:'error' });
-                return false;
+                if(category_id == '0'){
+                    $.notify("Category is Required" ,  {globalPosition: 'top right', className:'error' });
+                    return false;
+                }
+                if(brand_id == '0'){
+                    $.notify("Brand is Required" ,  {globalPosition: 'top right', className:'error' });
+                    return false;
+                }
+                if(product_id == '0'){
+                    $.notify("Product Field is Required" ,  {globalPosition: 'top right', className:'error' });
+                    return false;
                  }
                  var source = $("#document-template").html();
                  var tamplate = Handlebars.compile(source);
@@ -273,7 +277,7 @@
                 type: "GET",
                 data:{category_id:category_id,brand_id:brand_id},
                 success:function(data){
-                    var html = '<option value=" ">Select Product</option>';
+                    var html = '<option value="0">Select Product</option>';
                     $.each(data,function(key,v){
                         html += '<option  value=" '+v.id+' ">'+v.name+'</option>';
                     });

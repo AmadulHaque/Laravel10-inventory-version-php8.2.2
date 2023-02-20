@@ -131,9 +131,9 @@ class InvoiceController extends Controller
     public function InvoiceRemove($id){
         $invoice = Invoice::findOrFail($id);
         $invoice->delete();
-        InvoiceDetail::where('invoice_id',$invoice->id)->delete(); 
-        Payment::where('invoice_id',$invoice->id)->delete(); 
-        PaymentDetail::where('invoice_id',$invoice->id)->delete(); 
+        InvoiceDetail::where('invoice_id',$invoice->id)->delete();
+        Payment::where('invoice_id',$invoice->id)->delete();
+        PaymentDetail::where('invoice_id',$invoice->id)->delete();
     }// End Method
 
     public function InvoiceApprove($id){
@@ -149,9 +149,9 @@ class InvoiceController extends Controller
             $product = Product::where('id',$invoice_details->product_id)->first();
             if($product->quantity < $request->selling_qty[$key]){
                 $notification = array( 'message' => 'Sorry you approve Maximum Value', 'alert-type' => 'error');
-                return redirect()->back()->with($notification); 
+                return redirect()->back()->with($notification);
             }
-        } // End foreach 
+        } // End foreach
         $invoice = Invoice::findOrFail($id);
         $invoice->updated_by = Auth::user()->id;
         $invoice->status = '1';
@@ -168,7 +168,7 @@ class InvoiceController extends Controller
             $invoice->save();
         });
         $notification = array( 'message' => 'Invoice Approve Successfully',  'alert-type' => 'success');
-        return redirect()->route('invoice.pending.list')->with($notification);  
+        return redirect()->route('InvoicePendinglist')->with($notification);  
 
     } // End Method
 

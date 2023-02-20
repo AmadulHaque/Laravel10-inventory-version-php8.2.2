@@ -39,7 +39,7 @@
             <div class="md-3">
               <label for="example-text-input" class="form-label">Category Name </label>
               <select name="category_id" id="category_id" class="select submitable form-select " aria-label="Default select example">
-                <option selected=" ">Open this select menu</option>
+                <option value="0"  selected=" ">Open this select menu</option>
               </select>
             </div>
           </div>
@@ -47,7 +47,7 @@
             <div class="md-3">
               <label for="example-text-input" class="form-label">Brand Name </label>
               <select name="brand_id" id="brand_id" class="select submitable form-select " aria-label="Default select example">
-                <option selected=" ">Open this select menu</option>
+                <option value="0" selected=" ">Open this select menu</option>
               </select>
             </div>
           </div>
@@ -162,6 +162,7 @@
 <script type="text/javascript">
     $(document).ready(function(){
         $(document).on("click",".addeventmore", function(){
+
             var date = $('#date').val();
             var purchase_no = $('#purchase_no').val();
             var supplier_id = $('#supplier_id').val();
@@ -171,10 +172,12 @@
             var category_name = $('#category_id').find('option:selected').text();
             var product_id = $('#product_id').val();
             var product_name = $('#product_id').find('option:selected').text();
+
+
             if(date == ''){
                 $.notify("Date is Required" ,  {globalPosition: 'top right', className:'error' });
                 return false;
-                 }
+                }
                   if(purchase_no == ''){
                 $.notify("Purchase No is Required" ,  {globalPosition: 'top right', className:'error' });
                 return false;
@@ -183,11 +186,15 @@
                 $.notify("Supplier is Required" ,  {globalPosition: 'top right', className:'error' });
                 return false;
                  }
-                  if(category_id == ''){
-                $.notify("Category is Required" ,  {globalPosition: 'top right', className:'error' });
-                return false;
+                if(category_id =='0'){
+                    $.notify("Category is Required" ,  {globalPosition: 'top right', className:'error' });
+                    return false;
                  }
-                  if(product_id == ''){
+                 if(brand_id =='0'){
+                     $.notify("Brand is Required" ,  {globalPosition: 'top right', className:'error' });
+                     return false;
+                  }
+                  if(product_id =='0'){
                 $.notify("Product Field is Required" ,  {globalPosition: 'top right', className:'error' });
                 return false;
                  }
@@ -243,7 +250,7 @@
                 type: "GET",
                 data:{supplier_id:supplier_id},
                 success:function(data){
-                    var html = '<option value=" ">Select Category</option>';
+                    var html = '<option value="0">Select Category</option>';
                     $.each(data,function(key,v){
                         html += '<option value=" '+v.category_id+' "> '+v.category.name+'</option>';
                     });
@@ -255,7 +262,7 @@
                 type: "GET",
                 data:{supplier_id:supplier_id},
                 success:function(data){
-                    var html = '<option value=" ">Select Brand</option>';
+                    var html = '<option value="0">Select Brand</option>';
                     $.each(data,function(key,v){
                         html += '<option value=" '+v.brand_id+' "> '+v.brand.name+'</option>';
                     });
@@ -276,7 +283,7 @@
                 type: "GET",
                 data:{category_id:category_id,brand_id:brand_id},
                 success:function(data){
-                    var html = '<option value=" ">Select Product</option>';
+                    var html = '<option value="0">Select Product</option>';
                     $.each(data,function(key,v){
                         html += '<option  value=" '+v.id+' ">'+v.name+'</option>';
                     });
