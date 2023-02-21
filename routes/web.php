@@ -11,6 +11,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PurchaseController;
 use App\Http\Controllers\DefaultController;
 use App\Http\Controllers\InvoiceController;
+use App\Http\Controllers\StockController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -85,7 +86,6 @@ Route::controller(PurchaseController::class)->group(function () {
   Route::get('/purchase/remove/{id}','PurchaseRemove')->name('PurchaseRemove');
   Route::get('/purchase/pending','PurchasePending')->name('PurchasePending');
   Route::get('/purchase/approve/{id}', 'PurchaseApprove')->name('purchase.approve');
-
 });
 
 
@@ -107,6 +107,19 @@ Route::controller(InvoiceController::class)->group(function () {
   Route::get('/daily/invoice/pdf', 'DailyInvoicePdf')->name('daily.invoice.pdf');
 });
 
+
+Route::controller(StockController::class)->group(function () {
+    Route::get('/stock/report', 'StockReport')->name('stock.report');
+    Route::get('/stock/report/pdf', 'StockReportPdf')->name('stock.report.pdf'); 
+
+    Route::get('/stock/supplier/wise', 'StockSupplierWise')->name('stock.supplier.wise'); 
+    Route::get('/supplier/wise/pdf', 'SupplierWisePdf')->name('supplier.wise.pdf');
+    Route::get('/product/wise/pdf', 'ProductWisePdf')->name('product.wise.pdf');
+ 
+});
+
+
+
 // Default All Route
 Route::controller(DefaultController::class)->group(function () {
     Route::get('/get-category', 'GetCategory')->name('get-category');
@@ -114,7 +127,6 @@ Route::controller(DefaultController::class)->group(function () {
     Route::get('/get-product', 'GetProduct')->name('get-product');
     Route::get('/check-product', 'GetStock')->name('check-product-stock');
 });
-
 
 
 require __DIR__.'/auth.php';
