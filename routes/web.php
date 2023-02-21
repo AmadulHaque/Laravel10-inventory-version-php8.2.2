@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+ Route::middleware('auth')->group(function(){
+
+
 Route::controller(AdminController::class)->group(function () {
   Route::get('/dashboard','adminDashboard')->name('dashboard');
    Route::get('/admin/logout', 'adminLogout')->name('admin.logout');
@@ -44,6 +48,19 @@ Route::controller(CustomerController::class)->group(function () {
   Route::get('/customer/edit/{id}','customerEdit')->name('customerEdit');
   Route::post('/customer/update','CustomerUpdate')->name('CustomerUpdate');
   Route::get('/customer/remove/{id}','CustomerRemove')->name('CustomerRemove');
+
+  Route::get('/credit/customer','CreditCustomer')->name('CreditCustomer');
+  Route::get('/credit/customer/print/pdf', 'CreditCustomerPrintPdf')->name('credit.customer.print.pdf');
+
+  Route::get('/customer/edit/invoice/{invoice_id}', 'CustomerEditInvoice')->name('customer.edit.invoice');
+  Route::get('/customer/invoice/details/{invoice_id}', 'CustomerInvoiceDetails')->name('customer.invoice.details.pdf');
+  Route::post('/customer/update/invoice/{invoice_id}', 'CustomerUpdateInvoice')->name('customer.update.invoice');
+
+
+
+
+
+
 });
 
 Route::controller(UnitController::class)->group(function () {
@@ -85,7 +102,10 @@ Route::controller(PurchaseController::class)->group(function () {
   Route::post('/purchase-store','PurchaseStore')->name('PurchaseStore');
   Route::get('/purchase/remove/{id}','PurchaseRemove')->name('PurchaseRemove');
   Route::get('/purchase/pending','PurchasePending')->name('PurchasePending');
+  Route::get('/purchase/daily/report', 'PurchaseDailyReport')->name('PurchaseDailyReport');
+  Route::get('/daily/purchase/pdf', 'DailypurchasePdf')->name('DailypurchasePdf');
   Route::get('/purchase/approve/{id}', 'PurchaseApprove')->name('purchase.approve');
+
 });
 
 
@@ -110,14 +130,16 @@ Route::controller(InvoiceController::class)->group(function () {
 
 Route::controller(StockController::class)->group(function () {
     Route::get('/stock/report', 'StockReport')->name('stock.report');
-    Route::get('/stock/report/pdf', 'StockReportPdf')->name('stock.report.pdf'); 
+    Route::get('/stock/report/pdf', 'StockReportPdf')->name('stock.report.pdf');
 
-    Route::get('/stock/supplier/wise', 'StockSupplierWise')->name('stock.supplier.wise'); 
+    Route::get('/stock/supplier/wise', 'StockSupplierWise')->name('stock.supplier.wise');
     Route::get('/supplier/wise/pdf', 'SupplierWisePdf')->name('supplier.wise.pdf');
     Route::get('/product/wise/pdf', 'ProductWisePdf')->name('product.wise.pdf');
- 
+
 });
 
+
+}); // End Group Middleware
 
 
 // Default All Route

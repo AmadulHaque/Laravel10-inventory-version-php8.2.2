@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
-use App\Models\Customer;
+use App\Models\{Customer,Payment,PaymentDetail};
 use Auth,Validator,Image,File,DB;
 class CustomerController extends Controller
 {
@@ -103,6 +103,84 @@ class CustomerController extends Controller
       unlink($img->customer_image);
       Customer::findOrFail($id)->delete();
     }
+
+
+
+    public function CreditCustomer(Request $request)
+    {
+      if ($request->ajax()) {
+          $search = @$request->search;
+          $perPage = @$request->perPage ? $request->perPage : 10;
+          $data=Payment::whereIn('paid_status',['full_due','partial_paid']);
+          $datas = $data->paginate($perPage);
+          return view('backend.components.customer.credit_table',compact('datas'));
+      }
+      return view('backend.pages.customer.credit_customer');
+    }
+
+
+
+    public function CreditCustomerPrintPdf(){
+
+         $allData = Payment::whereIn('paid_status',['full_due','partial_paid'])->get();
+         return view('backend.pages.pdf.customer_credit_pdf',compact('allData'));
+
+     }// End Method
+
+     public function CustomerEditInvoice($invoice_id){
+
+          $payment = Payment::where('invoice_id',$invoice_id)->first();
+          return view('backend.pages.customer.edit_customer_invoice',compact('payment'));
+
+      }// End Method
+      public function CustomerUpdateInvoice(Request $request,$invoice_id){
+
+              if ($request->new_paid_amount < $request->paid_amount) {
+
+                  $notification = array(
+                  'message' => 'Sorry You Paid Maximum Value',
+                  'alert-type' => 'error'
+              );
+              return redirect()->back()->with($notification);
+              } else{
+                  $payment = Payment::where('invoice_id',$invoice_id)->first();
+                  $payment_details = new PaymentDetail();
+                  $payment->paid_status = $request->paid_status;
+
+                  if ($request->paid_status == 'full_paid') {
+                       $payment->paid_amount = Payment::where('invoice_id',$invoice_id)->first()['paid_amount']+$request->new_paid_amount;
+                       $payment->due_amount = '0';
+                       $payment_details->current_paid_amount = $request->new_paid_amount;
+
+                  } elseif ($request->paid_status == 'partial_paid') {
+                      $payment->paid_amount = Payment::where('invoice_id',$invoice_id)->first()['paid_amount']+$request->paid_amount;
+                      $payment->due_amount = Payment::where('invoice_id',$invoice_id)->first()['due_amount']-$request->paid_amount;
+                      $payment_details->current_paid_amount = $request->paid_amount;
+
+                  }
+
+                  $payment->save();
+                  $payment_details->invoice_id = $invoice_id;
+                  $payment_details->date = date('Y-m-d',strtotime($request->date));
+                  $payment_details->updated_by = Auth::user()->id;
+                  $payment_details->save();
+
+                    $notification = array(
+                  'message' => 'Invoice Update Successfully',
+                  'alert-type' => 'success'
+              );
+              return redirect()->route('CreditCustomer')->with($notification);
+              }
+          }// End Method
+          public function CustomerInvoiceDetails($invoice_id){
+
+            $payment = Payment::where('invoice_id',$invoice_id)->first();
+            return view('backend.pages.pdf.invoice_details_pdf',compact('payment'));
+          }// End Method
+
+
+
+
 
 
 }

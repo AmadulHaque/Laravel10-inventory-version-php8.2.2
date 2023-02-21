@@ -100,7 +100,34 @@ class PurchaseController extends Controller
           $notification = array('message' => 'Status Approved Successfully', 'alert-type' => 'success');
           return redirect()->route('PurchaseAll')->with($notification);
       }
-    }// End Method
+    }
+
+    public function PurchaseDailyReport()
+    {
+      return view('backend.pages.purchase.purchase_daily_report');
+
+    }
+
+
+
+public function DailypurchasePdf(Request $request)
+{
+  $sdate = date('Y-m-d',strtotime($request->start_date));
+  $edate = date('Y-m-d',strtotime($request->end_date));
+  $allData = Purchase::whereBetween('date',[$sdate,$edate])->where('status','1')->get();
+
+
+  $start_date = date('Y-m-d',strtotime($request->start_date));
+  $end_date = date('Y-m-d',strtotime($request->end_date));
+  return view('backend.pages.pdf.daily_purchase_report_pdf',compact('allData','start_date','end_date'));
+}
+
+
+
+
+
+
+
 
 
 }

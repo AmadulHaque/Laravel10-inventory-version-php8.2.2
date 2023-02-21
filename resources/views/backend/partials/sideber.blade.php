@@ -48,8 +48,8 @@
 						<div class="menu-title">Manage Customer</div>
 					</a>
 					<ul>
-						<li> <a href="{{route('customerAll')}}"><i class="bx bx-right-arrow-alt"></i>All Customer</a>
-						</li>
+						<li> <a href="{{route('customerAll')}}"><i class="bx bx-right-arrow-alt"></i>All Customer</a></li>
+						<li> <a href="{{route('CreditCustomer')}}"><i class="bx bx-right-arrow-alt"></i>Credit Customer</a></li>
 					</ul>
 				</li>
 
@@ -118,8 +118,8 @@
 						</li>
 						<li> <a href="{{route('PurchaseAdd')}}"><i class="bx bx-right-arrow-alt"></i>Add Purchase</a>
 						</li>
-						<li> <a href="{{route('PurchasePending')}}"><i class="bx bx-right-arrow-alt"></i> Purchase Pending</a>
-						</li>
+						<li> <a href="{{route('PurchasePending')}}"><i class="bx bx-right-arrow-alt"></i> Purchase Pending</a>	</li>
+						<li> <a href="{{route('PurchaseDailyReport')}}"><i class="bx bx-right-arrow-alt"></i>Daily Purchase Report</a>	</li>
 					</ul>
 				</li>
 
@@ -154,7 +154,7 @@
 					<ul>
 						<li> <a href="{{route('stock.report')}}"><i class="bx bx-right-arrow-alt"></i>Stock Report</a></li>
 						<li> <a href="{{route('stock.supplier.wise')}}"><i class="bx bx-right-arrow-alt"></i>Supplier / Product Wise</a></li>
-			
+
 					</ul>
 				</li>
 
