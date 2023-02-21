@@ -28,7 +28,7 @@ class StockController extends Controller
         $unit = Unit::all();
         $brand = Brand::all();
         return view('backend.pages.stock.index',compact('supplier','category','unit','brand'));
-    } 
+    }
 
 
     public function StockReportPdf(){
@@ -53,7 +53,11 @@ class StockController extends Controller
     } // End Method
 
 
+    public function ProductWisePdf(Request $request){
 
+        $product = Product::where('category_id',$request->category_id)->where('id',$request->product_id)->first();
+        return view('backend.pages.pdf.product_wise_report_pdf',compact('product'));
+    } // End Method
 
 
 

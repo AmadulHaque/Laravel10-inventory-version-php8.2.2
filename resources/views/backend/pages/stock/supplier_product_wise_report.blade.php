@@ -14,12 +14,12 @@
             <div class="col-md-12 text-center">
               <label for="supplier_product_wise"><strong> Supplier Wise Report </strong></label>
               <input type="radio" name="supplier_product_wise" value="supplier_wise" id="supplier_product_wise" class="search_value"> &nbsp;&nbsp;
-              
+
               <label for="product_wise"><strong> Product Wise Report </strong></label>
               <input type="radio" name="supplier_product_wise" id="product_wise" value="product_wise" class="search_value">
-            </div>        
+            </div>
           </div>
-          
+
 
             <!--  /// Supplier Wise  -->
             <div class="show_supplier" style="display:none">
@@ -34,6 +34,10 @@
                   </div>
                   <div class="col-sm-4" style="padding-top: 28px;">
                     <button type="submit" class="btn btn-primary">Search</button>
+                    <div id="canclediv" class="d-none md-3">
+                      <label for="example-text-input" class="form-label" style="margin-top:43px;"></label>
+                      <button id="cancle_data" type="button" class="btn btn-danger">Cancle</button>
+                    </div>
                   </div>
                 </div>
               </form>
@@ -42,7 +46,8 @@
 
             <!--  /// Product Wise  -->
             <div class="show_product" style="display:none; ">
-              <form method="GET" action="{{ route('product.wise.pdf') }}" id="myForm">
+              <form method="GET" id="product_wise_pdf">
+                @csrf
                 <div class="row">
                   <div class="col-md-4">
                     <div class="md-3">
@@ -62,6 +67,10 @@
                   </div>
                   <div class="col-sm-4" style="padding-top: 28px;">
                     <button type="submit" class="btn btn-primary">Search</button>
+                    <div id="canclediv" class="d-none md-3">
+                      <label for="example-text-input" class="form-label" style="margin-top:43px;"></label>
+                      <button id="cancle_data" type="button" class="btn btn-danger">Cancle</button>
+                    </div>
                   </div>
                 </div>
               </form>
@@ -102,18 +111,15 @@
   		})
 
 
-      // $(document).on('click', '#cancle_data', function(e){
-      //   $('.full_scren').removeClass('d-none');
-      //   $('#canclediv').addClass('d-none');
-      //   $('#start_date').val("");
-      //   $('#end_date').val("");
-      //   $('#printableArea').addClass('d-none');
+      $(document).on('click', '#cancle_data', function(e){
+        $('.full_scren').removeClass('d-none');
+        $('#canclediv').addClass('d-none');
+        $('.show_supplier').hide();
+        $('.show_product').hide();
+        $('#printableArea').addClass('d-none');
 
-      //   $('.full_scren').addClass('d-none');
-      // });
-
-
-
+        $('.full_scren').addClass('d-none');
+      });
 
         $(document).on('submit', '#myForm', function(e){
              e.preventDefault();
@@ -149,6 +155,46 @@
             }
         });
 
+        $(document).on('submit', '#product_wise_pdf', function(e){
+             e.preventDefault();
+             let product_id = $('#product_id').val();
+             let category_id = $('#category_id').val();
+            if (category_id=="") {
+              Toast.fire({
+                  icon: 'error',
+                  title:"Select Your Category!"
+              })
+            }else if(product_id==""){
+              Toast.fire({
+                  icon: 'error',
+                  title:"Select Your Product!"
+              })
+            }else {
+             $('.full_scren').removeClass('d-none');
+
+             $.ajax({
+                 url: "{{url('/product/wise/pdf')}}",
+                 type: 'get',
+                 data: {product_id:product_id,category_id:category_id},
+                 dataType:'html',
+                 success: function(data) {
+                      $('#canclediv').removeClass('d-none');
+                      $('#printableArea').removeClass('d-none');
+                      $('#report_val').html(data);
+                      $('.full_scren').addClass('d-none');
+                      Toast.fire({
+                          icon: 'success',
+                          title:"Report Gone Successfully!"
+                      })
+                  },
+                  error: function(data){
+                   $('.full_scren').addClass('d-none');
+                    console.log(data);
+                 }
+             });
+            }
+        });
+
 });
 
 </script>
@@ -160,7 +206,7 @@
         }else{
             $('.show_supplier').hide();
         }
-    }); 
+    });
 </script>
 
 
@@ -172,6 +218,26 @@
         }else{
             $('.show_product').hide();
         }
-    }); 
+    });
+</script>
+<script type="text/javascript">
+    $(function(){
+        $(document).on('change','#category_id',function(){
+          var category_id = $(this).val();
+            var brand_id ="";
+            $.ajax({
+                url:"{{ route('get-product') }}",
+                type: "GET",
+                data:{category_id:category_id, brand_id:brand_id},
+                success:function(data){
+                    var html = '<option value="">Select Product</option>';
+                    $.each(data,function(key,v){
+                        html += '<option value=" '+v.id+' "> '+v.name+'</option>';
+                    });
+                    $('#product_id').html(html);
+                }
+            })
+        });
+    });
 </script>
 @endpush()
