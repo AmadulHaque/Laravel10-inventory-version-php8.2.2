@@ -50,6 +50,8 @@
 					<ul>
 						<li> <a href="{{route('customerAll')}}"><i class="bx bx-right-arrow-alt"></i>All Customer</a></li>
 						<li> <a href="{{route('CreditCustomer')}}"><i class="bx bx-right-arrow-alt"></i>Credit Customer</a></li>
+						<li> <a href="{{route('paid.customer')}}"><i class="bx bx-right-arrow-alt"></i>Paid Customer</a></li>
+						<li> <a href="{{route('customer.wise.report')}}"><i class="bx bx-right-arrow-alt"></i>Customer Wise Report</a></li>
 					</ul>
 				</li>
 
