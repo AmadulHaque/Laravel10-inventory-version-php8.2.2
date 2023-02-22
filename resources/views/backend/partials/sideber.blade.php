@@ -156,9 +156,22 @@
 					<ul>
 						<li> <a href="{{route('stock.report')}}"><i class="bx bx-right-arrow-alt"></i>Stock Report</a></li>
 						<li> <a href="{{route('stock.supplier.wise')}}"><i class="bx bx-right-arrow-alt"></i>Supplier / Product Wise</a></li>
-
 					</ul>
 				</li>
+
+					<!--Manage Setting  -->
+				<li>
+					<a href="javascript:;" class="has-arrow">
+						<div class="parent-icon"><i class="bx bx-category"></i>
+						</div>
+						<div class="menu-title">Manage Setting</div>
+					</a>
+					<ul>
+						<li> <a href="{{route('GetSetting')}}"><i class="bx bx-right-arrow-alt"></i>All Settings</a></li>
+					</ul>
+				</li>
+
+
 
 			</ul>
 		</div>

@@ -22,9 +22,11 @@
 	<div class="container">
 		<div class="main-body">
 			<div class="row">
+
 				<div class="col-lg-12">
 					<div class="card">
 						<div class="card-body">
+							<a href="/admin/profile" class="btn btn-outline-danger">Go Back</a>
 							<form method="post" action="{{ route('update.password') }}"  >
 								@csrf
 								 @if (session('status'))

@@ -12,6 +12,7 @@ use App\Http\Controllers\PurchaseController;
 use App\Http\Controllers\DefaultController;
 use App\Http\Controllers\InvoiceController;
 use App\Http\Controllers\StockController;
+use App\Http\Controllers\SettingController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -141,6 +142,27 @@ Route::controller(StockController::class)->group(function () {
 });
 
 
+
+// settings All Route
+Route::controller(SettingController::class)->group(function () {
+    Route::get('/settings', 'GetSetting')->name('GetSetting');
+    Route::post('/setting/update', 'updateSetting')->name('updateSetting');
+
+
+
+
+
+    //////////
+    Route::get('/setting/header_bg', 'SettingHeader')->name('SettingHeader');
+    Route::get('/setting/sideber_bg', 'SettingSideber')->name('SettingSideber');
+});
+
+
+
+
+
+
+
 }); // End Group Middleware
 
 
@@ -151,6 +173,8 @@ Route::controller(DefaultController::class)->group(function () {
     Route::get('/get-product', 'GetProduct')->name('get-product');
     Route::get('/check-product', 'GetStock')->name('check-product-stock');
 });
+
+
 
 
 require __DIR__.'/auth.php';

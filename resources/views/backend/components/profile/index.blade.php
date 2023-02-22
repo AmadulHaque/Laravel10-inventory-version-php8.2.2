@@ -29,6 +29,7 @@
 							</div>
 						</div>
 						<hr class="my-4" />
+						<a class="btn btn-outline-success" href="{{route('admin.change.password')}}">Password Setting</a>
 					</div>
 				</div>
 			</div>

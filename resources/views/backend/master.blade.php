@@ -1,6 +1,6 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="en" class="">
+<!-- color-sidebar sidebarcolor1 color-header headercolor7 -->
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -25,6 +25,11 @@
 	<link href="{{asset('backend/assets/plugins/select2/css/select2.min.css')}}" rel="stylesheet" />
 	<link href="{{asset('backend/assets/plugins/select2/css/select2-bootstrap4.css')}}" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
+
+		<!-- Theme Style CSS -->
+	<link rel="stylesheet" href="{{asset('backend/assets/css/dark-theme.css')}}" />
+	<link rel="stylesheet" href="{{asset('backend/assets/css/semi-dark.css')}}" />
+	<link rel="stylesheet" href="{{asset('backend/assets/css/header-colors.css')}}" />
 	<title>Mona Inventory Management</title>
 </head>
 <style media="screen">
@@ -71,6 +76,81 @@
 		</footer>
 	</div>
 	<!--end wrapper-->
+
+
+	<!--start switcher-->
+	<div class="switcher-wrapper">
+		<div class="switcher-btn"> <i class='bx bx-cog bx-spin'></i>
+		</div>
+		<div class="switcher-body">
+			<hr/>
+			<h6 class="mb-0">Header Colors</h6>
+			<hr/>
+			<div class="header-colors-indigators">
+				<div class="row row-cols-auto g-3">
+					<div class="col">
+						<div class="header_color_set indigator headercolor1" bg="color-header headercolor1" id="headercolor1"></div>
+					</div>
+					<div class="col">
+						<div class="header_color_set indigator headercolor2" bg="color-header headercolor2" id="headercolor2"></div>
+					</div>
+					<div class="col">
+						<div class="header_color_set indigator headercolor3" bg="color-header headercolor3" id="headercolor3"></div>
+					</div>
+					<div class="col">
+						<div class="header_color_set indigator headercolor4" bg="color-header headercolor4" id="headercolor4"></div>
+					</div>
+					<div class="col">
+						<div class="header_color_set indigator headercolor5" bg="color-header headercolor5" id="headercolor5"></div>
+					</div>
+					<div class="col">
+						<div class="header_color_set indigator headercolor6" bg="color-header headercolor6" id="headercolor6"></div>
+					</div>
+					<div class="col">
+						<div class="header_color_set indigator headercolor7" bg="color-header headercolor7" id="headercolor7"></div>
+					</div>
+					<div class="col">
+						<div class="header_color_set indigator headercolor8" bg="color-header headercolor8" id="headercolor8"></div>
+					</div>
+				</div>
+			</div>
+
+			<hr/>
+			<h6 class="mb-0">Sidebar Backgrounds</h6>
+			<hr/>
+			<div class="header-colors-indigators">
+				<div class="row row-cols-auto g-3">
+					<div class="col">
+						<div class="sideber_color_set indigator sidebarcolor1" bg="color-sidebar  sidebarcolor1" id="sidebarcolor1"></div>
+					</div>
+					<div class="col">
+						<div class="sideber_color_set indigator sidebarcolor2" bg="color-sidebar  sidebarcolor2" id="sidebarcolor2"></div>
+					</div>
+					<div class="col">
+						<div class="sideber_color_set indigator sidebarcolor3" bg="color-sidebar  sidebarcolor3" id="sidebarcolor3"></div>
+					</div>
+					<div class="col">
+						<div class="sideber_color_set indigator sidebarcolor4" bg="color-sidebar  sidebarcolor4" id="sidebarcolor4"></div>
+					</div>
+					<div class="col">
+						<div class="sideber_color_set indigator sidebarcolor5" bg="color-sidebar  sidebarcolor5" id="sidebarcolor5"></div>
+					</div>
+					<div class="col">
+						<div class="sideber_color_set indigator sidebarcolor6" bg="color-sidebar  sidebarcolor6" id="sidebarcolor6"></div>
+					</div>
+					<div class="col">
+						<div class="sideber_color_set indigator sidebarcolor7" bg="color-sidebar  sidebarcolor7" id="sidebarcolor7"></div>
+					</div>
+					<div class="col">
+						<div class="sideber_color_set indigator sidebarcolor8" bg="color-sidebar  sidebarcolor8" id="sidebarcolor8"></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!--end switcher-->
+
 
 	<!-- Bootstrap JS -->
 	<script src="{{asset('backend/assets/js/bootstrap.bundle.min.js')}}"></script>
@@ -146,6 +226,32 @@
 	<script type="text/javascript">
 		$(function() {
 			Pace.stop();
+
+
+			$('.header_color_set').click(function(){
+				let bg = $(this).attr('bg');
+				$.ajax({
+					url:'/setting/header_bg',
+					type:'get',
+					data:{bg:bg},
+					success:function(data){
+						location.reload();
+					},
+				})
+			})
+
+			$('.sideber_color_set').click(function(){
+				let bg = $(this).attr('bg');
+				$.ajax({
+					url:'/setting/sideber_bg',
+					type:'get',
+					data:{bg:bg},
+					success:function(data){
+						location.reload();
+					},
+				})
+
+			})
 		})
 	</script>
 	@stack('js')
