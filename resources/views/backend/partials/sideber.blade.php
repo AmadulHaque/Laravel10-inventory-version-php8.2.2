@@ -2,12 +2,7 @@
 			<div class="sidebar-header">
 				<div>
 					<a href="/dashboard">
-					<img src="{{asset('backend/assets/images/logo-icon.png')}}" class="logo-icon" alt="logo icon">
-					</a>
-				</div>
-				<div>
-					<a href="/dashboard">
-					<h4 class="logo-text">Rukada</h4>
+					<img src="{{(!empty($setting->logo)) ? url('images/setting/'.$setting->logo):url('images/profile/no_image.jpeg') }}" class="logo-icon" alt="logo icon">
 					</a>
 				</div>
 				<div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>

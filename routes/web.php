@@ -150,8 +150,6 @@ Route::controller(SettingController::class)->group(function () {
 
 
 
-
-
     //////////
     Route::get('/setting/header_bg', 'SettingHeader')->name('SettingHeader');
     Route::get('/setting/sideber_bg', 'SettingSideber')->name('SettingSideber');

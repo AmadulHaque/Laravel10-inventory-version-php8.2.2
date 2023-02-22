@@ -25,11 +25,14 @@ return new class extends Migration
             $table->string('phone')->nullable();
             $table->string('photo')->nullable();
             $table->string('role')->nullable();
+            $table->string('header_color')->nullable();
+            $table->string('sideber_color')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
         });
     }
+
 
     /**
      * Reverse the migrations.

@@ -70,7 +70,7 @@
 									<input type="text" name="phone" class="form-control" value="{{$user->phone}}" />
 								</div>
 							</div>
-					
+
 							<div class="row mb-3">
 								<div class="col-sm-3">
 									<h6 class="mb-0">Address</h6>

@@ -22,8 +22,6 @@ return new class extends Migration
             $table->string('shop_title')->nullable();
             $table->string('address')->nullable();
             $table->string('address_two')->nullable();
-            $table->string('header_color')->nullable();
-            $table->string('sideber_color')->nullable();
             $table->timestamps();
         });
     }

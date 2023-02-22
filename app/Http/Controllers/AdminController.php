@@ -20,7 +20,7 @@ class AdminController extends Controller
 
     public function adminDashboard()
     {
-        
+
         return view('backend.index');
     }
 
@@ -38,7 +38,7 @@ class AdminController extends Controller
         $data->name = $request->name;
         $data->email = $request->email;
         $data->phone = $request->phone;
-        $data->address = $request->address; 
+        $data->address = $request->address;
 
         if ($request->file('photo')) {
             $file = $request->file('photo');
@@ -54,18 +54,18 @@ class AdminController extends Controller
             'alert-type' => 'success'
         );
         return redirect()->back()->with($notification);
-    } 
+    }
 
     public function AdminChangePassword(){
         return view('backend.components.profile.setting');
-    } 
+    }
 
- 
+
   public function AdminUpdatePassword(Request $request){
-        // Validation 
+        // Validation
         $request->validate([
             'old_password' => 'required',
-            'new_password' => 'required|confirmed', 
+            'new_password' => 'required|confirmed',
         ]);
 
         // Match The Old Password
@@ -73,14 +73,14 @@ class AdminController extends Controller
             return back()->with("error", "Old Password Doesn't Match!!");
         }
 
-        // Update The new password 
+        // Update The new password
         User::whereId(auth()->user()->id)->update([
             'password' => Hash::make($request->new_password)
 
         ]);
         return back()->with("status", " Password Changed Successfully");
 
-    } // End Mehtod 
+    } // End Mehtod
 
 
 }

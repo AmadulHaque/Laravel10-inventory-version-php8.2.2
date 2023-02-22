@@ -16,48 +16,13 @@
 								</a>
 							</li>
 							<li class="nav-item dropdown dropdown-large">
-								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">	<i class='bx bx-category'></i>
-								</a>
-								<div class="dropdown-menu dropdown-menu-end">
-									<div class="row row-cols-3 g-3 p-3">
-										<div class="col text-center">
-											<div class="app-box mx-auto bg-gradient-cosmic text-white"><i class='bx bx-group'></i>
-											</div>
-											<div class="app-title">Teams</div>
-										</div>
-										<div class="col text-center">
-											<div class="app-box mx-auto bg-gradient-burning text-white"><i class='bx bx-atom'></i>
-											</div>
-											<div class="app-title">Projects</div>
-										</div>
-										<div class="col text-center">
-											<div class="app-box mx-auto bg-gradient-lush text-white"><i class='bx bx-shield'></i>
-											</div>
-											<div class="app-title">Tasks</div>
-										</div>
-										<div class="col text-center">
-											<div class="app-box mx-auto bg-gradient-kyoto text-dark"><i class='bx bx-notification'></i>
-											</div>
-											<div class="app-title">Feeds</div>
-										</div>
-										<div class="col text-center">
-											<div class="app-box mx-auto bg-gradient-blues text-dark"><i class='bx bx-file'></i>
-											</div>
-											<div class="app-title">Files</div>
-										</div>
-										<div class="col text-center">
-											<div class="app-box mx-auto bg-gradient-moonlit text-white"><i class='bx bx-filter-alt'></i>
-											</div>
-											<div class="app-title">Alerts</div>
-										</div>
-									</div>
-								</div>
+								<a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#calculatorModal"><i class="lni lni-calculator"></i></a>
 							</li>
 						</ul>
 					</div>
 					<div class="user-box dropdown">
 						<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							<img src="{{asset('backend/assets/images/avatars/avatar-2.png')}}" class="user-img" alt="user avatar">
+							<img src="{{(!empty(Auth::user()->photo)) ? url('images/profile/'.Auth::user()->photo):url('images/profile/no_image.jpeg') }}" class="user-img" alt="user avatar">
 							<div class="user-info ps-3">
 								<p class="user-name mb-0">{{Auth::user()->name}}</p>
 								<p class="designattion mb-0">{{Auth::user()->username}}</p>
@@ -71,7 +36,7 @@
 							<li>
 								<a class="dropdown-item" href="/dashboard"><i class='bx bx-home-circle'></i><span>Dashboard</span></a>
 							</li>
-			
+
 							<li>
 								<div class="dropdown-divider mb-0"></div>
 							</li>
