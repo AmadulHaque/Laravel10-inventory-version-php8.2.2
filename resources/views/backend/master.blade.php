@@ -255,12 +255,6 @@
 					</div>
 
 
-
-
-
-
-
-
 				</div>
 			</div>
 		</div>
@@ -278,28 +272,28 @@
 			<div class="header-colors-indigators">
 				<div class="row row-cols-auto g-3">
 					<div class="col">
-						<div class="header_color_set indigator headercolor1_aa" bg="color-header headercolor1" id="headercolor1"></div>
+						<div class="header_color_set indigator headercolor1" bg="color-header headercolor1" id="headercolor1"></div>
 					</div>
 					<div class="col">
-						<div class="header_color_set indigator headercolor2_aa" bg="color-header headercolor2" id="headercolor2"></div>
+						<div class="header_color_set indigator headercolor2" bg="color-header headercolor2" id="headercolor2"></div>
 					</div>
 					<div class="col">
-						<div class="header_color_set indigator headercolor3_aa" bg="color-header headercolor3" id="headercolor3"></div>
+						<div class="header_color_set indigator headercolor3" bg="color-header headercolor3" id="headercolor3"></div>
 					</div>
 					<div class="col">
-						<div class="header_color_set indigator headercolor4_aa" bg="color-header headercolor4" id="headercolor4"></div>
+						<div class="header_color_set indigator headercolor4" bg="color-header headercolor4" id="headercolor4"></div>
 					</div>
 					<div class="col">
-						<div class="header_color_set indigator headercolor5_aa" bg="color-header headercolor5" id="headercolor5"></div>
+						<div class="header_color_set indigator headercolor5" bg="color-header headercolor5" id="headercolor5"></div>
 					</div>
 					<div class="col">
-						<div class="header_color_set indigator headercolor6_aa" bg="color-header headercolor6" id="headercolor6"></div>
+						<div class="header_color_set indigator headercolor6" bg="color-header headercolor6" id="headercolor6"></div>
 					</div>
 					<div class="col">
-						<div class="header_color_set indigator headercolor7_aa" bg="color-header headercolor7" id="headercolor7"></div>
+						<div class="header_color_set indigator headercolor7" bg="color-header headercolor7" id="headercolor7"></div>
 					</div>
 					<div class="col">
-						<div class="header_color_set indigator headercolor8_aa" bg="color-header headercolor8" id="headercolor8"></div>
+						<div class="header_color_set indigator headercolor8" bg="color-header headercolor8" id="headercolor8"></div>
 					</div>
 					<button type="button" class="header_color_set btn btn-outline-danger" bg=" ">None</button>
 				</div>

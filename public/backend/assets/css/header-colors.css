@@ -33,30 +33,31 @@ html.color-header .user-box {
 html.color-header .mobile-toggle-menu {
 	color: #fff
 }
-.headercolor1_aa {
-	background: #0727d7!important
+.headercolor1 {
+	background: #0727d7;
 }
-.headercolor2_aa {
-	background: #23282c!important
+.headercolor2 {
+	background: #23282c;
 }
-.headercolor3_aa {
-	background: #e10a1f!important
+.headercolor3 {
+	background: #e10a1f;
 }
-.headercolor4_aa {
-	background: #157d4c!important
+.headercolor4 {
+	background: #157d4c;
 }
-.headercolor5_aa {
-	background: #673ab7!important
+.headercolor5 {
+	background: #673ab7;
 }
-.headercolor6_aa {
-	background: #795548!important
+.headercolor6 {
+	background: #795548;
 }
-.headercolor7_aa {
-	background: #d3094e!important
+.headercolor7 {
+	background: #d3094e;
 }
-.headercolor8_aa {
-	background: #ff9800!important
+.headercolor8 {
+	background: #ff9800;
 }
+
 html.headercolor1 .topbar {
 	background: #0727d7
 }
