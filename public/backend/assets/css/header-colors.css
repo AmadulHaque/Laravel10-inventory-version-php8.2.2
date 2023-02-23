@@ -34,28 +34,28 @@ html.color-header .mobile-toggle-menu {
 	color: #fff
 }
 .headercolor1 {
-	background: #0727d7;
+	background: #0727d7 !important; 
 }
 .headercolor2 {
-	background: #23282c;
+	background: #23282c !important;
 }
 .headercolor3 {
-	background: #e10a1f;
+	background: #e10a1f !important;
 }
 .headercolor4 {
-	background: #157d4c;
+	background: #157d4c !important;
 }
 .headercolor5 {
-	background: #673ab7;
+	background: #673ab7 !important;
 }
 .headercolor6 {
-	background: #795548;
+	background: #795548 !important; 
 }
 .headercolor7 {
-	background: #d3094e;
+	background: #d3094e !important;
 }
 .headercolor8 {
-	background: #ff9800;
+	background: #ff9800 !important;
 }
 
 html.headercolor1 .topbar {

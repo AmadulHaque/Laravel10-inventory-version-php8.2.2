@@ -12,16 +12,16 @@
                 <strong>Invoice No # {{ $invoice->invoice_no }}</strong>
               </h4>
               <h3>
-                <img src="{{ asset('/backend/assets/images/logo-icon.png') }}" alt="logo" height="24" />
+                <img src="{{(!empty($setting->logo)) ? url('images/setting/'.$setting->logo):url('images/profile/no_image.jpeg') }}" alt="logo" height="24" />
               </h3>
             </div>
             <hr>
             <div class="row">
               <div class="col-6 mt-4">
-                <address>
-                  <strong>Easy Shopping Mall:</strong>
-                  <br> Purana Palton Dhaka <br> support@easylearningbd.com
-                </address>
+                    <address>
+                      <strong>{{$setting->shop_title}} Shopping Mall:</strong>
+                      <br>{{$setting->address}}<br> {{$setting->email}}
+                    </address>
               </div>
               <div class="col-6 mt-4 text-end">
                 <address>

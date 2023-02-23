@@ -2,10 +2,10 @@
   <div class="col-12">
     <div class="row">
       <div class="col-6 mt-4">
-        <address>
-          <strong>Easy Shopping Mall:</strong>
-          <br> Purana Palton Dhaka <br> support@easylearningbd.com
-        </address>
+          <address>
+            <strong>{{$setting->shop_title}} Shopping Mall:</strong>
+            <br>{{$setting->address}}<br> {{$setting->email}}
+          </address>
       </div>
       <div class="col-6 mt-4 text-end">
         <address></address>
