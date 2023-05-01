@@ -50,6 +50,18 @@
 					</ul>
 				</li>
 
+				<!--Manage Category  -->
+				<li>
+					<a href="javascript:;" class="has-arrow">
+						<div class="parent-icon"><i class="bx bx-category"></i>
+						</div>
+						<div class="menu-title">Manage Expense</div>
+					</a>
+					<ul>
+						<li> <a href="{{route('ExpenseTypeAll')}}"><i class="bx bx-right-arrow-alt"></i>All Expense Type</a></li>
+						<li> <a href="{{route('ExpenseAll')}}"><i class="bx bx-right-arrow-alt"></i>All Expense</a></li>
+					</ul>
+				</li>
 
 				<!--Manage Unit  -->
 				<li>
