@@ -209,11 +209,18 @@
               type: 'get',
               url: "/brand/remove/"+id,
               success: function (data) {
+                if (data.status==305) {
+                    Toast.fire({
+                       icon: 'info',
+                       title:data.message
+                   })
+                }else{
                    tableData();
                    Toast.fire({
                        icon: 'success',
                        title:"Brand Remove Successfully!"
                    })
+                }
               }
           });
         }
@@ -221,19 +228,19 @@
 
 	 });
 
-	 // delete row
+	 // edit row
 	 $(document).on('click', '.edit_row', function(e){
 		 let id = $(this).attr('id_val');
 		 	$('.full_scren').removeClass('d-none');
 			 $.ajax({
-			 		type: 'get',
-			 		url: "/brand/edit/"+id,
-			 		success: function (data) {
-							$('.full_scren').addClass('d-none');
-							$('#edit_val_get').html(data)
-							$('#EditBrandModal').modal('show');
-			 		}
-		 });
+		 		type: 'get',
+		 		url: "/brand/edit/"+id,
+		 		success: function (data) {
+					$('.full_scren').addClass('d-none');
+					$('#edit_val_get').html(data)
+					$('#EditBrandModal').modal('show');
+		 		}
+		  });
 	 });
 
 

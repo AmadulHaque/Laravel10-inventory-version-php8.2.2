@@ -118,10 +118,26 @@ class ProductController extends Controller
     }
 
     public function ProductRemove($id)
-    {
-      $img=DB::table('products')->where('id',$id)->first();
-      unlink($img->image);
-      Product::findOrFail($id)->delete();
+    { 
+      $check = DB::table('purchases')->where('product_id',$id)->count();
+      $check2 = DB::table('invoice_details')->where('product_id',$id)->count();
+      if ($check2 > 0) {
+          return response()->json([
+            "status"=>305,
+            "message"=>"This Product is used!"
+          ]);
+      }else{
+         if ($check > 0) {
+          return response()->json([
+            "status"=>305,
+            "message"=>"This Product is used!"
+          ]);
+        }else{
+          $img=DB::table('products')->where('id',$id)->first();
+          unlink($img->image);
+          Product::findOrFail($id)->delete();
+        }
+      }
     }
 
 

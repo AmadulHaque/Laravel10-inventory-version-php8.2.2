@@ -68,6 +68,15 @@ class BrandController extends Controller
 
     public function BrandRemove($id)
     {
-      Brand::findOrFail($id)->delete();
+      $check = DB::table('products')->where('brand_id',$id)->count();
+      if ($check > 0) {
+          return response()->json([
+            "status"=>305,
+            "message"=>"This Brand is used!"
+          ]);
+      }else{
+        Brand::findOrFail($id)->delete();
+      }
+      
     }
 }

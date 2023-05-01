@@ -112,168 +112,194 @@
     });
 </script>
 <script>
-  $(document).ready(function() {
-		const Toast = Swal.mixin({
-			toast: true,
-			position: 'top-end',
-			showConfirmButton: false,
-			timer: 3000,
-			timerProgressBar: true,
-			didOpen: (toast) => {
-				toast.addEventListener('mouseenter', Swal.stopTimer)
-				toast.addEventListener('mouseleave', Swal.resumeTimer)
-			}
-		})
-    tableData();
-    function tableData(page=1){
-       var search = $("#search").val();
-       var perPage = $("#perpage").val();
-      $.ajax({
-           type: 'get',
-           url: "{{ url('/suppliers') }}?page="+page,
-           dataType: 'html',
-           data: {
-               search: search,
-               perPage: perPage
-           },
-           success: function (data) {
-               $("#tableData").html(data);
-	              Pace.stop();
-           }
-       });
+$(document).ready(function() {
+  const Toast = Swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.addEventListener('mouseenter', Swal.stopTimer)
+      toast.addEventListener('mouseleave', Swal.resumeTimer)
     }
-   // table search perpage pagination setup start
-   $(document).on('change', '#perpage', function (e) {
-       e.preventDefault();
-       tableData();
-   });
-   $(document).on('keyup', '#search', function (e) {
-       e.preventDefault();
-       tableData();
-   });
-   $(document).on('click', '.pagination a', function (e) {
-       e.preventDefault();
-       let page = $(this).attr('href').split('page=')[1];
-       if (page) {
-           tableData(page);
-					 console.log(page);
-       }
-   });
-   // table search perpage pagination setup end
+  })
+  tableData();
 
-	 // insert row
-	 $(document).on('submit', '#addSupplierStore', function(e){
-	      e.preventDefault();
-				$('#addSupplierModal').modal('hide');
-				$('.full_scren').removeClass('d-none');
-	      let formData = new FormData($("#addSupplierStore")[0]);
-	      $.ajax({
-	          url: "{{url('/supplier/store')}}",
-	          type: 'POST',
-	          data: formData,
-	          processData: false,
-	          contentType: false,
-	          dataType:'json',
-	          success: function(data) {
-              if(data.success == 1){
-								tableData();
-								$('.full_scren').addClass('d-none');
-									Toast.fire({
-											icon: 'success',
-											title:"Supplier Add Successfully!"
-									})
-									$('#addSupplierStore')[0].reset();
-              }else{
-								$('.full_scren').addClass('d-none');
-                  $.each(data[0], function(key, item){
-                      toastr.error(item);
-                  });
-              }
+  function tableData(page = 1) {
+    var search = $("#search").val();
+    var perPage = $("#perpage").val();
+    $.ajax({
+      type: 'get',
+      url: "{{ url('/suppliers') }}?page=" + page,
+      dataType: 'html',
+      data: {
+        search: search,
+        perPage: perPage
+      },
+      success: function(data) {
+        $("#tableData").html(data);
+        Pace.stop();
+      }
+    });
+  }
+  // table search perpage pagination setup start
+  $(document).on('change', '#perpage', function(e) {
+    e.preventDefault();
+    tableData();
+  });
+  $(document).on('keyup', '#search', function(e) {
+    e.preventDefault();
+    tableData();
+  });
+  $(document).on('click', '.pagination a', function(e) {
+    e.preventDefault();
+    let page = $(this).attr('href').split('page=')[1];
+    if (page) {
+      tableData(page);
+      console.log(page);
+    }
+  });
+  // table search perpage pagination setup end
 
-	          },
-	          error: function(data){
-							$('.full_scren').addClass('d-none');
-							Toast.fire({
-									icon: 'error',
-									title:data,
-							})
-	             console.log(data);
-	          }
-	      });
-   });
+  // insert row
+  $(document).on('submit', '#addSupplierStore', function(e) {
+    e.preventDefault();
+    $('#addSupplierModal').modal('hide');
+    $('.full_scren').removeClass('d-none');
+    let formData = new FormData($("#addSupplierStore")[0]);
+    $.ajax({
+      url: "{{url('/supplier/store')}}",
+      type: 'POST',
+      data: formData,
+      processData: false,
+      contentType: false,
+      dataType: 'json',
+      success: function(data) {
+        if (data.success == 1) {
+          tableData();
+          $('.full_scren').addClass('d-none');
+          Toast.fire({
+            icon: 'success',
+            title: "Supplier Add Successfully!"
+          })
+          $('#addSupplierStore')[0].reset();
+        } else {
+          $('.full_scren').addClass('d-none');
+          $.each(data[0], function(key, item) {
+            toastr.error(item);
+          });
+        }
+      },
+      error: function(data) {
+        $('.full_scren').addClass('d-none');
+        Toast.fire({
+          icon: 'error',
+          title: data,
+        })
+        console.log(data);
+      }
+    });
+  });
 
-	 // edit row
-	 $(document).on('click', '.delete_row', function(e){
-		 let id = $(this).attr('id_val');
-		 $.ajax({
-	 			 type: 'get',
-	 			 url: "/supplier/remove/"+id,
-	 			 success: function (data) {
-					    tableData();
-							Toast.fire({
-									icon: 'success',
-									title:"Supplier Remove Successfully!"
-							})
-	 			 }
-	 	 });
-	 });
-
-	 // delete row
-	 $(document).on('click', '.edit_row', function(e){
-		 let id = $(this).attr('id_val');
-		 	$('.full_scren').removeClass('d-none');
-			 $.ajax({
-			 		type: 'get',
-			 		url: "/supplier/edit/"+id,
-			 		success: function (data) {
-							$('.full_scren').addClass('d-none');
-							$('#edit_val_get').html(data)
-							$('#EditSupplierModal').modal('show');
-			 		}
-		 });
-	 });
-
-
-	 // update row
-	 $(document).on('submit', '#SupplierUpdate', function(e){
-	      e.preventDefault();
-				$('#EditSupplierModal').modal('hide');
-				$('.full_scren').removeClass('d-none');
-	      let formData = new FormData($("#SupplierUpdate")[0]);
-	      $.ajax({
-	          url: "{{url('/supplier/update')}}",
-	          type: 'POST',
-	          data: formData,
-	          processData: false,
-	          contentType: false,
-	          dataType:'json',
-	          success: function(data) {
-              if(data.success == 1){
-								tableData();
-								$('.full_scren').addClass('d-none');
-									Toast.fire({
-											icon: 'success',
-											title:"Supplier Add Successfully!"
-									})
-									$('#SupplierUpdate')[0].reset();
-              }else{
-								$('.full_scren').addClass('d-none');
-                  $.each(data[0], function(key, item){
-                      toastr.error(item);
-                  });
-              }
-	          },
-	          error: function(data){
-							$('.full_scren').addClass('d-none');
-							Toast.fire({
-									icon: 'error',
-									title:data,
-							})
-	             console.log(data);
-	          }
-	      });
-   	});
+  // edit row
+  $(document).on('click', '.delete_row', function(e) {
+    let id = $(this).attr('id_val');
+    const swalWithBootstrapButtons = Swal.mixin({
+      customClass: {
+        confirmButton: 'btn btn-success',
+        cancelButton: 'btn btn-danger'
+      },
+      buttonsStyling: false
+    })
+    swalWithBootstrapButtons.fire({
+      title: 'Are you sure?',
+      text: "You won't be able to revert this!",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonText: 'Yes, delete it!',
+      cancelButtonText: 'No, cancel!',
+      reverseButtons: true
+    }).then((result) => {
+      if (result.isConfirmed) {
+        $.ajax({
+          type: 'get',
+          url: "/supplier/remove/" + id,
+          success: function(data) {
+          	if (data.status==305) {
+                Toast.fire({
+                   icon: 'info',
+                   title:data.message
+               })
+            }else{
+	            tableData();
+	            Toast.fire({
+	              icon: 'success',
+	              title: "Supplier Remove Successfully!"
+	            })
+        	}
+          }
+        });
+      }
+    })
 
   });
+
+  // delete row
+  $(document).on('click', '.edit_row', function(e) {
+    let id = $(this).attr('id_val');
+    $('.full_scren').removeClass('d-none');
+    $.ajax({
+      type: 'get',
+      url: "/supplier/edit/" + id,
+      success: function(data) {
+        $('.full_scren').addClass('d-none');
+        $('#edit_val_get').html(data)
+        $('#EditSupplierModal').modal('show');
+      }
+    });
+  });
+
+
+  // update row
+  $(document).on('submit', '#SupplierUpdate', function(e) {
+    e.preventDefault();
+    $('#EditSupplierModal').modal('hide');
+    $('.full_scren').removeClass('d-none');
+    let formData = new FormData($("#SupplierUpdate")[0]);
+    $.ajax({
+      url: "{{url('/supplier/update')}}",
+      type: 'POST',
+      data: formData,
+      processData: false,
+      contentType: false,
+      dataType: 'json',
+      success: function(data) {
+        if (data.success == 1) {
+          tableData();
+          $('.full_scren').addClass('d-none');
+          Toast.fire({
+            icon: 'success',
+            title: "Supplier Add Successfully!"
+          })
+          $('#SupplierUpdate')[0].reset();
+        } else {
+          $('.full_scren').addClass('d-none');
+          $.each(data[0], function(key, item) {
+            toastr.error(item);
+          });
+        }
+      },
+      error: function(data) {
+        $('.full_scren').addClass('d-none');
+        Toast.fire({
+          icon: 'error',
+          title: data,
+        })
+        console.log(data);
+      }
+    });
+  });
+});
 </script>
 @endpush()

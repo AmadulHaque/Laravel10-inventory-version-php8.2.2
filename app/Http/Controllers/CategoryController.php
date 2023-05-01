@@ -68,7 +68,15 @@ class CategoryController extends Controller
 
     public function CategoryRemove($id)
     {
-      Category::findOrFail($id)->delete();
+      $check = DB::table('products')->where('category_id',$id)->count();
+      if ($check > 0) {
+          return response()->json([
+            "status"=>305,
+            "message"=>"This Category is used!"
+          ]);
+      }else{
+        Category::findOrFail($id)->delete();
+      }
     }
 
 

@@ -184,7 +184,7 @@
 	      });
    });
 
-	 // edit row
+	 // delete row
 	 $(document).on('click', '.delete_row', function(e){
 		 let id = $(this).attr('id_val');
 
@@ -209,11 +209,18 @@
               type: 'get',
               url: "/categorie/remove/"+id,
               success: function (data) {
+                if (data.status==305) {
+                    Toast.fire({
+                       icon: 'info',
+                       title:data.message
+                   })
+                }else{
                    tableData();
                    Toast.fire({
                        icon: 'success',
                        title:"Category Remove Successfully!"
                    })
+                }
               }
           });
         }

@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="csrf-token" content="{{ csrf_token() }}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--favicon-->
-	<link rel="icon" href="{{asset('backend/assets/images/favicon-32x32.png')}}" type="image/png" />
+	<!--favicon-->  
+	<link rel="icon" href="{{$setting->favicon ? 'images/setting/'.$setting->favicon : 'backend/assets/images/favicon-32x32.png'}}" type="image/png" />
 	<!--plugins-->
 	<link href="{{asset('backend/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css')}}" rel="stylesheet"/>
 	<link href="{{asset('backend/assets/plugins/simplebar/css/simplebar.css')}}" rel="stylesheet" />
@@ -15,7 +15,6 @@
 	<!-- loader-->
 	<link href="{{asset('backend/assets/css/pace.min.css')}}" rel="stylesheet" />
 	<script src="{{asset('backend/assets/js/pace.min.js')}}"></script>
-
 	<!-- Bootstrap CSS -->
 	<link href="{{asset('backend/assets/css/bootstrap.min.css')}}" rel="stylesheet">
 	<link href="{{asset('backend/assets/css/app.css')}}" rel="stylesheet">
@@ -23,13 +22,12 @@
 	<!--  Style CSS -->
 	<link href="{{asset('backend/assets/plugins/select2/css/select2.min.css')}}" rel="stylesheet" />
 	<link href="{{asset('backend/assets/plugins/select2/css/select2-bootstrap4.css')}}" rel="stylesheet" />
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
-
-		<!-- Theme Style CSS -->
+	<link rel="stylesheet" href="{{asset('backend/assets/css/toastr.css')}}" />
+	<!-- Theme Style CSS -->
 	<link rel="stylesheet" href="{{asset('backend/assets/css/dark-theme.css')}}" />
 	<link rel="stylesheet" href="{{asset('backend/assets/css/semi-dark.css')}}" />
 	<link rel="stylesheet" href="{{asset('backend/assets/css/header-colors.css')}}" />
-	<title>Mona Inventory Management</title>
+	<title>Mona Inventory Management </title>
 </head>
 <style media="screen">
 .full_scren {
@@ -167,7 +165,7 @@
 		}
 	</style>
 	<!-- calculator start -->
-	<div class="modal fade" id="calculatorModal" tabindex="-1" aria-labelledby="calculatorModalLabel" style="display: none;" aria-hidden="true">
+	<div class="modal fade" id="calculatorModal"style="display: none;">
 		<div class="modal-dialog " style="width:355px !important">
 			<div class="modal-content">
 				<div class="modal-body">
@@ -199,7 +197,6 @@
 							<span class="operator">x</span>
 						</div>
 					</div>
-
 
 				</div>
 			</div>
@@ -298,14 +295,13 @@
 	<script src="{{asset('backend/assets/plugins/sparkline-charts/jquery.sparkline.min.js')}}"></script>
 	<script src="{{asset('backend/assets/plugins/jquery-knob/excanvas.js')}}"></script>
 	<script src="{{asset('backend/assets/plugins/jquery-knob/jquery.knob.js')}}"></script>
- 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ 	<script src="{{asset('backend/assets/js/sweetalert2.js')}}"></script>
 	<script src="{{asset('backend/assets/js/validate.min.js')}}"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+	<script src="{{asset('backend/assets/js/toastr.js')}}"></script>
+	<script src="{{asset('backend/assets/js/notify.min.js')}}"></script>
 	<!--app JS-->
-
 	<script src="{{asset('backend/assets/plugins/select2/js/select2.min.js')}}"></script>
-	<script src="{{ asset('backend/assets/js/handlebars.js') }}"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js" ></script>
+	<script src="{{asset('backend/assets/js/handlebars.js') }}"></script>
 
 	<script type="text/javascript">
 		$(function(){
@@ -330,36 +326,33 @@
 						  icon: 'info',
 						  title:"{{ Session::get('message') }}"
 						})
-		               break;
+		            break;
 		          	case 'success':
 	               		Toast.fire({
 						  icon: 'success',
 						  title:"{{ Session::get('message') }}"
 						})
-		              break;
+		            break;
 		          	case 'warning':
 	               		Toast.fire({
 						  icon: 'warning',
 						  title:"{{ Session::get('message') }}"
 						})
-		              break;
+		            break;
 		          	case 'error':
 	               		Toast.fire({
 						  icon: 'error',
 						  title:"{{ Session::get('message') }}"
 						})
-		              break;
-		            }
+		            break;
+		        }
 		    @endif
-
 		})
 	</script>
 	<script src="{{asset('backend/assets/js/app.js')}}"></script>
 	<script type="text/javascript">
 		$(function() {
 			Pace.stop();
-
-
 			$('.header_color_set').click(function(){
 				let bg = $(this).attr('bg');
 				$.ajax({

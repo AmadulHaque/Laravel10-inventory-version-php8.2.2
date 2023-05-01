@@ -73,7 +73,15 @@ class UnitController extends Controller
 
     public function unitRemove($id)
     {
-      Unit::findOrFail($id)->delete();
+      $check = DB::table('products')->where('unit_id',$id)->count();
+      if ($check > 0) {
+          return response()->json([
+            "status"=>305,
+            "message"=>"This Unit is used!"
+          ]);
+      }else{
+        Unit::findOrFail($id)->delete();
+      }
     }
 
 

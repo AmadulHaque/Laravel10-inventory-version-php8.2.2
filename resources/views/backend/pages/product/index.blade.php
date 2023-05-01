@@ -302,11 +302,18 @@
               type: 'get',
               url: "/product/remove/"+id,
               success: function (data) {
+                if (data.status==305) {
+                    Toast.fire({
+                       icon: 'info',
+                       title:data.message
+                   })
+                }else{
                    tableData();
                    Toast.fire({
                        icon: 'success',
                        title:"Product Remove Successfully!"
                    })
+                }
               }
           });
         }

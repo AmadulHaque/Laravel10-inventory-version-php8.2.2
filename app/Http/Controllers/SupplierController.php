@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Supplier;
 use Illuminate\Support\Carbon;
-use Auth,Validator;
+use Auth,Validator,DB;
 class SupplierController extends Controller
 {
     //
@@ -47,7 +47,23 @@ class SupplierController extends Controller
 
     public function SupplierRemove($id)
     {
-       Supplier::findOrFail($id)->delete();
+      $check = DB::table('products')->where('supplier_id',$id)->count();
+      $check2 = DB::table('purchases')->where('supplier_id',$id)->count();
+        if ($check < 0) {
+            return response()->json([
+              "status"=>305,
+              "message"=>"This Category is used!"
+            ]);
+        }else{
+            if ($check2 > 0) {
+                return response()->json([
+                  "status"=>305,
+                  "message"=>"This Purchases is used!"
+                ]);
+            }else{
+                Supplier::findOrFail($id)->delete();
+            }
+       }
     }
 
     function SupplierEdit($id)

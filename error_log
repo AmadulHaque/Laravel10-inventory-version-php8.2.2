@@ -1,0 +1,1246 @@
+[12-Mar-2023 04:04:06 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/tsalvoja/public_html/artisan on line 18
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/platform_check.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 25
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/platform_check.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:25
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#1 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#2 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 25
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Warning:  require(/home/tsalvoja/public_html/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
+[12-Mar-2023 04:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tsalvoja/public_html/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tsalvoja/public_html/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/tsalvoja/public_html/vendor/composer/autoload_real.php(38): composerRequire9f27d474f6c4ef5d20c3959e03ac8721()
+#1 /home/tsalvoja/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9f27d474f6c4ef5d20c3959e03ac8721::getLoader()
+#2 /home/tsalvoja/public_html/artisan(18): require('/home/tsalvoja/...')
+#3 {main}
+  thrown in /home/tsalvoja/public_html/vendor/composer/autoload_real.php on line 55
