@@ -11,6 +11,7 @@ class ProductController extends Controller
     //
     public function ProductAll(Request $request)
     {
+        $searchVal = $request->search;
       if ($request->ajax()) {
           $search = @$request->search;
           $perPage = @$request->perPage ? $request->perPage : 10;
@@ -25,7 +26,7 @@ class ProductController extends Controller
       $category = Category::all();
       $unit = Unit::all();
       $brand = Brand::all();
-      return view('backend.pages.product.index',compact('supplier','category','unit','brand'));
+      return view('backend.pages.product.index',compact('supplier','category','unit','brand','searchVal'));
     }
 
     public function ProductStore(Request $request){

@@ -42,6 +42,15 @@
             <label class="form-label">Address Two</label>
             <input type="text" class="form-control" name="address_two" value="{{$setting->address_two}}">
           </div>
+          <div class="mb-3">
+            <label class="form-label">Currency</label>
+            <select name="currency" class="form-control" >
+                <option value="$">Choose..</option>
+                <option value="$" @if($setting->currency=='$')selected @endif >USD $</option>
+                <option value="₹" @if($setting->currency=='₹')selected @endif >INR ₹</option>
+                <option value="৳" @if($setting->currency=='৳')selected @endif >BDT ৳</option>
+            </select>
+          </div>
 
           <div class="mb-3">
             <button type="submit" class="btn btn-primary" >Update</button>

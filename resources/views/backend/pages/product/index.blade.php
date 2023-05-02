@@ -32,7 +32,10 @@
 
     <div class="d-flex mb-2">
       @include( 'backend.partials.perPage')
-      @include( 'backend.partials.search')
+     <div class="table-top-right" style="margin: auto;margin-right: auto;margin-right: 0px;">
+        <label for="search">Search:</label>
+        <input id="search" type="search" id="search" value="{{$searchVal}}">
+    </div>
     </div>
     <div id="tableData" class="table-responsive">
       <tr>

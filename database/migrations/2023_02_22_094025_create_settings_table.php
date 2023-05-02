@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('shop_title')->nullable();
             $table->string('address')->nullable();
             $table->string('address_two')->nullable();
+            $table->string('currency')->default('$');
             $table->timestamps();
         });
     }

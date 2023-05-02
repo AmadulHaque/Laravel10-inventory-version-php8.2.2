@@ -55,6 +55,7 @@ class SettingController extends Controller
         $data['shop_title'] = $request->shop_title;
         $data['address'] = $request->address;
         $data['address_two'] = $request->address_two;
+         $data['currency'] = $request->currency;
         DB::table('settings')->update($data);
         $notification = array('message' => 'Update Success!','alert-type' => 'success');
         return redirect()->back()->with($notification);

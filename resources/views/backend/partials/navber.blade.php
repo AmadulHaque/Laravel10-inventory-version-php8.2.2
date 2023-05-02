@@ -15,9 +15,6 @@
 								<a class="nav-link" href="#">	<i class='bx bx-search'></i>
 								</a>
 							</li>
-							<li class="nav-item dropdown dropdown-large">
-								<a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#calculatorModal"><i class="lni lni-calculator"></i></a>
-							</li>
 						</ul>
 					</div>
 					<div class="user-box dropdown">
