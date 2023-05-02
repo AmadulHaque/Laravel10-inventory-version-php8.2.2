@@ -8,7 +8,6 @@
 	<!--favicon-->  
 	<link rel="icon" href="{{$setting->favicon ? 'images/setting/'.$setting->favicon : 'backend/assets/images/favicon-32x32.png'}}" type="image/png" />
 	<!--plugins-->
-	<link href="{{asset('backend/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css')}}" rel="stylesheet"/>
 	<link href="{{asset('backend/assets/plugins/simplebar/css/simplebar.css')}}" rel="stylesheet" />
 	<link href="{{asset('backend/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css')}}" rel="stylesheet" />
 	<link href="{{asset('backend/assets/plugins/metismenu/css/metisMenu.min.css')}}" rel="stylesheet" />
@@ -24,7 +23,6 @@
 	<link href="{{asset('backend/assets/plugins/select2/css/select2-bootstrap4.css')}}" rel="stylesheet" />
 	<link rel="stylesheet" href="{{asset('backend/assets/css/toastr.css')}}" />
 	<!-- Theme Style CSS -->
-	<link rel="stylesheet" href="{{asset('backend/assets/css/dark-theme.css')}}" />
 	<link rel="stylesheet" href="{{asset('backend/assets/css/semi-dark.css')}}" />
 	<link rel="stylesheet" href="{{asset('backend/assets/css/header-colors.css')}}" />
 	<link rel="stylesheet" href="{{asset('backend/assets/css/all.min.css')}}" />
@@ -83,13 +81,6 @@
 	<script src="{{asset('backend/assets/plugins/simplebar/js/simplebar.min.js')}}"></script>
 	<script src="{{asset('backend/assets/plugins/metismenu/js/metisMenu.min.js')}}"></script>
 	<script src="{{asset('backend/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js')}}"></script>
-	<script src="{{asset('backend/assets/plugins/chartjs/js/Chart.min.js')}}"></script>
-	<script src="{{asset('backend/assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js')}}"></script>
-  	<script src="{{asset('backend/assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js')}}"></script>
-	<script src="{{asset('backend/assets/plugins/jquery.easy-pie-chart/jquery.easypiechart.min.js')}}"></script>
-	<script src="{{asset('backend/assets/plugins/sparkline-charts/jquery.sparkline.min.js')}}"></script>
-	<script src="{{asset('backend/assets/plugins/jquery-knob/excanvas.js')}}"></script>
-	<script src="{{asset('backend/assets/plugins/jquery-knob/jquery.knob.js')}}"></script>
  	<script src="{{asset('backend/assets/js/sweetalert2.js')}}"></script>
 	<script src="{{asset('backend/assets/js/validate.min.js')}}"></script>
 	<script src="{{asset('backend/assets/js/toastr.js')}}"></script>
