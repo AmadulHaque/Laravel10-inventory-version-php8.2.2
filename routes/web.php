@@ -22,9 +22,9 @@ Route::get('/', function () {
     return redirect('/login');
 });
 
-Route::get('/register', function () {
-    return redirect('/login');
-});
+// Route::get('/register', function () {
+    // return redirect('/login');
+// });
 
 
  Route::middleware('auth')->group(function(){
