@@ -5,3 +5,23 @@
 	border-radius: 100%;
 	margin-right: 13px;
 }
+.root-cc{
+	color: #ec843e;
+}
+.root-cg{
+	color: #45a516;
+}
+
+.full_scren {
+	position: fixed;
+	z-index: 1111111111;
+	width: 100%;
+	background: #fff;
+	height: 100%;
+	top: 61px;
+}
+.full_scren img{
+	margin-left: 32% !important;
+	margin-top: 14%;
+	width: 98px;
+}

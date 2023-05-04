@@ -26,7 +26,5 @@
 @if(count($datas) == 0)
    <tr><p class="text-center p-5">No Data Found</p></tr>
 @endif
-
-
 <?php $paginate = $datas ?>
 @include( 'backend.partials.pagination')

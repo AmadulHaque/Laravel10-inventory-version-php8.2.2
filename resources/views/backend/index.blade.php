@@ -9,7 +9,7 @@
 				<div class="card-body">
 					<div class="d-flex align-items-center">
 						<div class="text-primary indexTopCard font-35">
-							<i class="fa-brands fa-shopify" style="color: #ec843e;"></i>
+							<i class="fa-brands fa-shopify root-cc"></i>
 						</div>
 						<div>
 							<p class="mb-0 text-secondary">Total Purchase</p>
@@ -24,7 +24,7 @@
 				<div class="card-body">
 					<div class="d-flex align-items-center">
 						<div class="text-primary indexTopCard font-35">
-							<i class="fa-solid fa-money-bill-1 fa-xs" style="color: #45a516;"></i>
+							<i class="fa-solid fa-money-bill-1 fa-xs root-cg" style="color: #45a516;"></i>
 						</div>
 						<div>
 							<p class="mb-0 text-secondary">Total Sales</p>
@@ -39,7 +39,7 @@
 				<div class="card-body">
 					<div class="d-flex align-items-center">
 						<div class="text-primary indexTopCard font-35">
-							<i class="fa-solid fa-money-check-dollar fa-sm" style="color: #ec843e;"></i>
+							<i class="fa-solid fa-money-check-dollar fa-sm root-cc"></i>
 						</div>
 						<div>
 							<p class="mb-0 text-secondary">Total Expense</p>
@@ -55,7 +55,7 @@
 				<div class="card-body">
 					<div class="d-flex align-items-center">
 						<div class="text-primary indexTopCard font-35">
-							<i class="fa-brands fa-product-hunt fa-sm" style="color: #45a516;"></i>
+							<i class="fa-brands fa-product-hunt fa-sm root-cg"></i>
 						</div>
 						<div>
 							<p class="mb-0 text-secondary">Total Product</p>
@@ -74,7 +74,7 @@
 				<div class="d-flex align-items-center">
 					<h5 class="mb-0 text-white">{{$customers}}</h5>
 					<div class="ms-auto">
-                      <i class="fa-solid fa-user-group fs-3" style="color: #ffffff;"></i>
+                      <i class="fa-solid fa-user-group fs-3 text-white"></i>
 					</div>
 				</div>
 				<div class="d-flex align-items-center text-white">
@@ -89,7 +89,7 @@
 				<div class="d-flex align-items-center">
 					<h5 class="mb-0 text-white">{{$suppliers}}</h5>
 					<div class="ms-auto">
-                       <i class="fa-solid fa-user-check fs-3" style="color: #ffffff;"></i>
+                       <i class="fa-solid fa-user-check fs-3 text-white"></i>
 					</div>
 				</div>
 				<div class="d-flex align-items-center text-white">
@@ -104,7 +104,7 @@
 					<div class="d-flex align-items-center">
 						<h5 class="mb-0 text-white">{{$purchasesCount}}</h5>
 						<div class="ms-auto">
-	                        <i class="fa-solid fa-file-lines fs-3" style="color: #ffffff;"></i>
+	                        <i class="fa-solid fa-file-lines fs-3 text-white"></i>
 						</div>
 					</div>
 					<div class="d-flex align-items-center text-white">
@@ -119,7 +119,7 @@
 					<div class="d-flex align-items-center">
 						<h5 class="mb-0 text-white">{{$invoiceCount}}</h5>
 						<div class="ms-auto">
-	                       <i class="fa-regular fa-file fs-3" style="color: #ffffff;"></i>
+	                       <i class="fa-regular fa-file fs-3 text-white"></i>
 						</div>
 					</div>
 					<div class="d-flex align-items-center text-white">
