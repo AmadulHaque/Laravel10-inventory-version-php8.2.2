@@ -27,7 +27,7 @@
 	<link rel="stylesheet" href="{{asset('backend/assets/css/header-colors.css')}}" />
 	<link rel="stylesheet" href="{{asset('backend/assets/css/all.min.css')}}" />
 	<link rel="stylesheet" href="{{asset('backend/assets/css/style.css')}}" />
-	<title>Mona Inventory Management </title>
+	<title>Amad Inventory Management </title>
 </head>
 <style media="screen">
 .full_scren {
@@ -57,7 +57,7 @@
 
 		<!--start page wrapper -->
 		<div class="page-wrapper">
-			<div class="page-content" style="height: 1100px !important">
+			<div class="page-content">
 				@yield('content')
 			</div>
 		</div>
