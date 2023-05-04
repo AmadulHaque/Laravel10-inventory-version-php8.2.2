@@ -75,7 +75,7 @@ class ExpenseController extends Controller
                 'created_at' => Carbon::now(),
            ]);
            return response()->json(['success'=>1]);
-        }else{
+        }else{  
              return response()->json([$validator->errors()]);
         }
     }
