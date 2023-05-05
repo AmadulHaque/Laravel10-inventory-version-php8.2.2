@@ -90,9 +90,7 @@
                  address: {
                     required : true,
                 },
-                 customer_image: {
-                    required : true,
-                },
+                
             },
             messages :{
                 name: {
@@ -106,9 +104,6 @@
                 },
                 address: {
                     required : 'Please Enter Your Address',
-                },
-                 customer_image: {
-                    required : 'Please Select one Image',
                 },
             },
             errorElement : 'span',

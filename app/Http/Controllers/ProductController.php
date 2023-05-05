@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use App\Models\{Product,Supplier,Category,Unit,Brand};
@@ -88,7 +87,9 @@ class ProductController extends Controller
         $img=DB::table('products')->where('id',$request->id)->first();  //product data get
         if ($validator->passes()) {
             if ($request->file('image')) {
-                unlink($img->image);
+                if ($img->image) {
+                   unlink($img->image);
+                }
                 $image = $request->file('image');
                 $name_gen = hexdec(uniqid()).'.'.$image->getClientOriginalExtension(); // 343434.png
                 Image::make($image)->resize(400,400)->save('images/product/'.$name_gen);

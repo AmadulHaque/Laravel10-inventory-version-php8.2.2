@@ -10,9 +10,6 @@
         <br>
         <br>
         <div class="row">
-
-
-
           <div class="col-md-1 mb-3">
             <div class="md-3">
               <label for="example-text-input" class="form-label">Inv No</label>
@@ -60,7 +57,7 @@
           <div class="col-md-2">
             <div class="md-3">
               <label for="example-text-input" class="form-label" style="margin-top:43px;"></label>
-              <i class="btn btn-secondary btn-rounded waves-effect waves-light fas fa-plus-circle addeventmore"> Add More</i>
+              <button class="btn btn-primary addeventmore"><i class="fas fa-plus-circle"> </i> Add More</button>
             </div>
           </div>
         </div>
@@ -71,7 +68,7 @@
       <div class="card-body">
         <form method="post" action="{{route('InvoiceStore')}}">
            @csrf
-          <table class="table-sm table-bordered" width="100%" style="border-color: #ddd;">
+          <table class="table-sm table-bordered tb-border" width="100%">
             <thead>
               <tr>
                 <th>Category</th>
@@ -141,7 +138,7 @@
           <!-- End Hide Add Customer Form -->
           <br>
           <div class="form-group">
-            <button type="submit" class="btn btn-info" id="storeButton"> Invoice Store</button>
+            <button type="submit" class="btn btn-primary" id="storeButton"> Invoice Store</button>
           </div>
         </form>
       </div>

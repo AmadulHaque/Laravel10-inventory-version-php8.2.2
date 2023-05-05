@@ -31,7 +31,10 @@
             <div class="md-3">
               <label for="example-text-input" class="form-label">Supplier Name </label>
               <select id="supplier_id" name="supplier_id" class="select form-select " aria-label="Default select example">
-                <option selected="">Open this select menu</option> @foreach($supplier as $supp) <option value="{{ $supp->id }}">{{ $supp->name }}</option> @endforeach
+                <option selected="">Open this select menu</option>
+                @foreach($supplier as $supp) 
+                <option value="{{ $supp->id }}">{{ $supp->name }}</option> 
+                @endforeach
               </select>
             </div>
           </div>
@@ -62,7 +65,7 @@
           <div class="col-md-12">
             <div class="md-3" style="float:right">
               <label for="example-text-input" class="form-label" style="margin-top:43px;"></label>
-              <i class="btn btn-secondary btn-rounded waves-effect waves-light fas fa-plus-circle addeventmore"> Add More</i>
+              <button class="btn btn-primary addeventmore"><i class="  fas fa-plus-circle"></i>Add More</button>
             </div>
           </div>
         </div>
@@ -73,7 +76,7 @@
       <div class="card-body">
         <form method="post" action="{{ route('PurchaseStore') }}">
           @csrf
-          <table class="table table-striped table-bordered" width="100%" style="border-color: #ddd;">
+          <table class="table table-striped table-bordered tb-border" width="100%">
             <thead>
               <tr>
                 <th>Category</th>
@@ -99,7 +102,7 @@
           </table>
           <br>
           <div class="form-group">
-            <button type="submit" class="btn btn-info" id="storeButton"> Purchase Store</button>
+            <button type="submit" class="btn btn-primary" id="storeButton"> Purchase Store</button>
           </div>
         </form>
       </div>

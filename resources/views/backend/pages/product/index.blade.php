@@ -79,8 +79,6 @@
           reader.readAsDataURL(e.target.files['0']);
       });
 
-
-
         $('#addProductStore').validate({
           rules: {
               name: {
@@ -98,9 +96,6 @@
               brand_id: {
                  required : true,
              },
-             image: {
-                required : true,
-            },
           },
           messages :{
               name: {
@@ -117,10 +112,7 @@
               },
               brand_id: {
                   required : 'Please Select One Brand',
-              },
-              image: {
-                  required : 'Please Select One image',
-              },
+              }
           },
             errorElement : 'span',
             errorPlacement: function (error,element) {

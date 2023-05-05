@@ -17,7 +17,7 @@
     @foreach($datas as $key => $item)
     <tr>
        <td> {{ $key+1}} </td>
-       <td> <img src="{{ asset( $item->image ) }}" style="width:60px; height:50px"></td>
+       <td> <img src="{{$item->image ?  $item->image  : url('images/no_image.jpeg') }}" style="width:60px; height:50px"></td>
        <td> {{ $item->name }} </td>
        <td> {{ $item['supplier']['name'] }} </td>
        <td> {{ $item['unit']['name'] }} </td>

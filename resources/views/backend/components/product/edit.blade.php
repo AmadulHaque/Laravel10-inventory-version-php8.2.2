@@ -72,7 +72,7 @@
   <div class="row mb-3">
     <label for="example-text-input" class="col-sm-2 col-form-label"></label>
     <div class="col-sm-10">
-      <img id="showImage2" style="width:50%" class="rounded avatar-lg" src="{{  url($product->image) }}" alt="Card image cap">
+      <img id="showImage2" style="width:50%" class="rounded avatar-lg" src="{{ $product->image ? $product->image : url('images/no_image.jpeg') }}" alt="Card image cap">
     </div>
   </div>
   <script type="text/javascript">

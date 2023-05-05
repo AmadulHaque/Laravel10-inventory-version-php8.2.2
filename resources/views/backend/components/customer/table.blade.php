@@ -16,7 +16,7 @@
     <tr>
       <td> {{ $key+1}} </td>
       <td> {{ $item->name }} </td>
-      <td> <img src="{{ asset( $item->customer_image ) }}" style="width:60px; height:50px"> </td>
+      <td> <img src="{{ $item->customer_image ? $item->customer_image : url('images/no_image.jpeg') }}" style="width:60px; height:50px"> </td>
       <td> {{ $item->email }} </td>
        <td> {{ $item->address }} </td>
       <td>

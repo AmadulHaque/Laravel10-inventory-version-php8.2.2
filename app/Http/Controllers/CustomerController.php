@@ -69,7 +69,7 @@ class CustomerController extends Controller
           'email' => 'required',
       ]);
       if ($validator->passes()) {
-        $img=DB::table('customers')->where('id',$request->id)->first();  //product data get
+          $img=DB::table('customers')->where('id',$request->id)->first();  //product data get
 
           if ($request->file('customer_image')) {
               $image = $request->file('customer_image');
@@ -77,7 +77,9 @@ class CustomerController extends Controller
               Image::make($image)->resize(200,200)->save('images/customer/'.$name_gen);
               $save_url = 'images/customer/'.$name_gen;
               //
-              unlink($img->customer_image);
+              if ($img->customer_image) {
+                unlink($img->customer_image);
+              }
           }else{
             $save_url =$img->customer_image;
           }
