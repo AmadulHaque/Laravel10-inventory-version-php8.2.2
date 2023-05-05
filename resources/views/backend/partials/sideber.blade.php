@@ -25,7 +25,7 @@
 				<!--Manage Supplier  -->
 				<li>
 					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class="bx bx-category"></i>
+						<div class="parent-icon"><i class="fadeIn animated bx bx-circle"></i>
 						</div>
 						<div class="menu-title">Manage Supplier</div>
 					</a>
@@ -38,7 +38,7 @@
 				<!--Manage Customer  -->
 				<li>
 					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class="bx bx-category"></i>
+						<div class="parent-icon"><i class="fadeIn animated bx bx-circle"></i>
 						</div>
 						<div class="menu-title">Manage Customer</div>
 					</a>
@@ -53,7 +53,7 @@
 				<!--Manage Category  -->
 				<li>
 					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class="bx bx-category"></i>
+						<div class="parent-icon"><i class="fadeIn animated bx bx-circle"></i>
 						</div>
 						<div class="menu-title">Manage Expense</div>
 					</a>
@@ -66,7 +66,7 @@
 				<!--Manage Unit  -->
 				<li>
 					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class="bx bx-category"></i>
+						<div class="parent-icon"><i class="fadeIn animated bx bx-circle"></i>
 						</div>
 						<div class="menu-title">Manage Unit</div>
 					</a>
@@ -79,7 +79,7 @@
 				<!--Manage Category  -->
 				<li>
 					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class="bx bx-category"></i>
+						<div class="parent-icon"><i class="fadeIn animated bx bx-circle"></i>
 						</div>
 						<div class="menu-title">Manage Category</div>
 					</a>
@@ -92,7 +92,7 @@
 				<!--Manage Brand  -->
 				<li>
 					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class="bx bx-category"></i>
+						<div class="parent-icon"><i class="fadeIn animated bx bx-circle"></i>
 						</div>
 						<div class="menu-title">Manage Brand</div>
 					</a>
@@ -105,7 +105,7 @@
 				<!--Manage Product  -->
 				<li>
 					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class="bx bx-category"></i>
+						<div class="parent-icon"><i class="fadeIn animated bx bx-circle"></i>
 						</div>
 						<div class="menu-title">Manage Product</div>
 					</a>
@@ -118,7 +118,7 @@
 				<!--Manage Purchase  -->
 				<li>
 					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class="bx bx-category"></i>
+						<div class="parent-icon"><i class="fadeIn animated bx bx-circle"></i>
 						</div>
 						<div class="menu-title">Manage Purchase</div>
 					</a>
@@ -135,7 +135,7 @@
 				<!--Manage Purchase  -->
 				<li>
 					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class="bx bx-category"></i>
+						<div class="parent-icon"><i class="fadeIn animated bx bx-circle"></i>
 						</div>
 						<div class="menu-title">Manage Invoice</div>
 					</a>
@@ -156,7 +156,7 @@
 						<!--Manage Purchase  -->
 				<li>
 					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class="bx bx-category"></i>
+						<div class="parent-icon"><i class="fadeIn animated bx bx-circle"></i>
 						</div>
 						<div class="menu-title">Manage Stock</div>
 					</a>
@@ -169,7 +169,7 @@
 					<!--Manage Setting  -->
 				<li>
 					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class="bx bx-category"></i>
+						<div class="parent-icon"><i class="fadeIn animated bx bx-circle"></i>
 						</div>
 						<div class="menu-title">Manage Setting</div>
 					</a>

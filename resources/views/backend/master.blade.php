@@ -118,6 +118,7 @@
 		            break;
 		        }
 		    @endif
+		    Pace.stop()
 		})
 	</script>
 	<script src="{{asset('backend/assets/js/app.js')}}"></script>
