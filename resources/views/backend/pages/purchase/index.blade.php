@@ -36,8 +36,6 @@
   </div>
 </div>
 
-<!-- add modal -->
-@include( 'backend.components.purchase.add')
 <!-- Modal -->
 <div class="modal fade" id="EditPurchaseModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
