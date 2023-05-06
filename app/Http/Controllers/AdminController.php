@@ -9,7 +9,7 @@ use App\Models\{User,InvoiceDetail};
 use Image,DB;
 class AdminController extends Controller
 {
-    //
+
     public function adminLogout(Request $request)
     {
         Auth::guard('web')->logout();
@@ -48,6 +48,7 @@ class AdminController extends Controller
         {
         $datas[$month-1] = $amount_sales[$index];
         }
+        
         $data = compact('saleList','productStockOut','purchases','invoice','products','expense','customers','suppliers','purchasesCount','invoiceCount','datas');
         return view('backend.index',$data);
     }

@@ -1,9 +1,9 @@
 
 @extends('backend.master')
 @section('content')
-<style media="screen">
-
-</style>
+@php
+$setting =DB::table('settings')->first();
+@endphp
 <!--breadcrumb-->
 <div class="full_scren d-none">
   <img class="" src="{{asset('images/loader/loader2.svg')}}"/>

@@ -1,11 +1,9 @@
 @extends('backend.master')
 @section('content')
-<div class="row">
-    
-</div>
-   @php
-    $payment = App\Models\Payment::where('invoice_id',$invoice->id)->first();
-    @endphp  
+@php
+$setting =DB::table('settings')->first();
+$payment = App\Models\Payment::where('invoice_id',$invoice->id)->first();
+@endphp  
  <div class="row">
    <div class="col-12">
      <div class="card">

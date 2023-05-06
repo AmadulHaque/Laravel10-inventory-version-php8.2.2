@@ -1,11 +1,8 @@
 @extends('backend.master')
 @section('content')
-
-<style media="screen">
-  .product_img{
-    width:220px;
-  }
-</style>
+@php
+$setting =DB::table('settings')->first();
+@endph
 
 <div class="row">
   <div class="col-12">

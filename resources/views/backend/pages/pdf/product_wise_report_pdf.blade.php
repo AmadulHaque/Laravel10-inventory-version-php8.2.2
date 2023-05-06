@@ -1,4 +1,6 @@
-
+@php
+$setting =DB::table('settings')->first();
+@endph
   <!-- end page title -->
   <div class="row">
     <div class="col-12">

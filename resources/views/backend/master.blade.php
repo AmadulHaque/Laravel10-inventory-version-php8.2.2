@@ -30,6 +30,7 @@
 	<title>Amad Inventory Management </title>
 </head>
 <body>
+
 	<!--wrapper-->
 	<div class="wrapper">
 		<!--sidebar wrapper -->

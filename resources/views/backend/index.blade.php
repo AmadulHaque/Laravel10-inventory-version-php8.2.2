@@ -1,6 +1,8 @@
 @extends('backend.master')
 @section('content')
-
+	@php
+	$setting =DB::table('settings')->first();
+	@endphp
 	<!--start row-->
 	<div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
 		<!-- this top card four data start -->

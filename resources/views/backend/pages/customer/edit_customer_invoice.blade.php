@@ -1,7 +1,8 @@
 @extends('backend.master')
 @section('content')
-
-
+  @php
+  $setting =DB::table('settings')->first();
+  @endphp
     <!-- end page title -->
     <div class="row">
       <div class="col-12">

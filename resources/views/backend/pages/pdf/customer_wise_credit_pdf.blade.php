@@ -1,8 +1,10 @@
+@php
+$setting =DB::table('settings')->first();
+@endph
 <div class="row">
   <div class="col-12">
     <div class="card">
       <div id="printableArea" class="card-body">
-
         <div class="row">
           <div class="col-12">
             <div class="invoice-title">

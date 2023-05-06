@@ -1,5 +1,8 @@
 @extends('backend.master')
 @section('content')
+@php
+$setting =DB::table('settings')->first();
+@endph
 <div class="full_scren d-none">
   <img class="" src="{{asset('images/loader/loader2.svg')}}"/>
 </div>
