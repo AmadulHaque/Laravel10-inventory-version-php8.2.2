@@ -2,7 +2,7 @@
 @section('content')
 @php
 $setting =DB::table('settings')->first();
-@endph
+@endphp
 <div class="full_scren d-none">
   <img class="" src="{{asset('images/loader/loader2.svg')}}"/>
 </div>
@@ -31,7 +31,7 @@ $setting =DB::table('settings')->first();
             <div class="col-md-4">
               <div class="md-3">
                 <label for="example-text-input" class="form-label" style="margin-top:43px;"></label>
-                <button id="myForm" type="button" class="btn btn-info">Search</button>
+                <button id="myForm" type="button" class="btn btn-primary">Search</button>
               </div>
 
               <div id="canclediv" class="d-none md-3">

@@ -3,7 +3,7 @@
 @section('content')
 @php
 $setting =DB::table('settings')->first();
-@endph
+@endphp
 <div class="row">
   <div class="col-xl-9 mx-auto">
     <h6 class="mb-0 text-uppercase">Control Setting</h6>
