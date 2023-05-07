@@ -101,9 +101,31 @@ class CustomerController extends Controller
 
     public function CustomerRemove($id)
     {
-      $img=DB::table('customers')->where('id',$id)->first();
-      unlink($img->customer_image);
-      Customer::findOrFail($id)->delete();
+
+
+      $check = DB::table('invoice_details')->where('category_id',$id)->count();
+      if ($check > 0) {
+          return response()->json([
+            "status"=>305,
+            "message"=>"This Customer is used!"
+          ]);
+      }else{
+          $img=DB::table('customers')->where('id',$id)->first();
+          if ($img->customer_image) {
+              unlink($img->customer_image);
+          }
+          Customer::findOrFail($id)->delete();
+      }
+
+
+
+
+
+
+
+
+
+
     }
 
 

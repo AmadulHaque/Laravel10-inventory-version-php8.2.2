@@ -56,7 +56,6 @@
                                                     <label class="form-check-label" for="flexSwitchCheckChecked">Remember Me</label>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 text-end"> <a href="#">Forgot Password ?</a></div>
                                             <div class="col-12">
                                                 <div class="d-grid">
                                                     <button type="submit" class="btn btn-primary"><i class="bx bxs-lock-open"></i>Sign in</button>

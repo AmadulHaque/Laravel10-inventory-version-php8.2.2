@@ -53,7 +53,7 @@
       <select name="brand_id" class="form-select" aria-label="Default select example">
         <option selected="" value="">Open this select menu</option>
          @foreach($brand as $item)
-          <option value="{{ $item->id }}" {{ $cat->id == $product->brand_id ? 'selected' : '' }}>{{ $item->name }}</option>
+          <option value="{{ $item->id }}" {{ $item->id == $product->brand_id ? 'selected' : '' }}>{{ $item->name }}</option>
          @endforeach
       </select>
     </div>

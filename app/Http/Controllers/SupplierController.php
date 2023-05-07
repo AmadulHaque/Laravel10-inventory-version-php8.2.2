@@ -49,16 +49,16 @@ class SupplierController extends Controller
     {
       $check = DB::table('products')->where('supplier_id',$id)->count();
       $check2 = DB::table('purchases')->where('supplier_id',$id)->count();
-        if ($check < 0) {
+        if ($check > 0) {
             return response()->json([
               "status"=>305,
-              "message"=>"This Category is used!"
+              "message"=>"This Supplier is used!"
             ]);
         }else{
             if ($check2 > 0) {
                 return response()->json([
                   "status"=>305,
-                  "message"=>"This Purchases is used!"
+                  "message"=>"This Supplier is used!"
                 ]);
             }else{
                 Supplier::findOrFail($id)->delete();

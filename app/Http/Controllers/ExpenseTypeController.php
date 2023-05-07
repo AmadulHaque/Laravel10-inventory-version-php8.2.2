@@ -27,7 +27,7 @@ class ExpenseTypeController extends Controller
     public function ExpenseTypeStore(Request $request)
     {
       $validator =  Validator::make($request->all(), [
-          'name' => 'required|unique:categories',
+          'name' => 'required|unique:expense_types',
       ]);
       if ($validator->passes()) {
         ExpenseType::insert([

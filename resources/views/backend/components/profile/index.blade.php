@@ -1,7 +1,9 @@
 
 @extends('backend.master')
 @section('content')
-
+@php
+$setting =DB::table('settings')->first();
+@endphp
 <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
 	<div class="breadcrumb-title pe-3">User Profile</div>
 	<div class="ps-3">

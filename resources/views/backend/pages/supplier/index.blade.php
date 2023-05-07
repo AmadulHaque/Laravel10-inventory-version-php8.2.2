@@ -245,7 +245,7 @@ $(document).ready(function() {
 
   });
 
-  // delete row
+  // edit row
   $(document).on('click', '.edit_row', function(e) {
     let id = $(this).attr('id_val');
     $('.full_scren').removeClass('d-none');
@@ -280,7 +280,7 @@ $(document).ready(function() {
           $('.full_scren').addClass('d-none');
           Toast.fire({
             icon: 'success',
-            title: "Supplier Add Successfully!"
+            title: "Supplier Update Successfully!"
           })
           $('#SupplierUpdate')[0].reset();
         } else {

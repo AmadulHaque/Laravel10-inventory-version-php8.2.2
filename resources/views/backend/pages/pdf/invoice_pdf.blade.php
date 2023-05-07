@@ -2,7 +2,7 @@
 @section('content')
 @php
 $setting =DB::table('settings')->first();
-@endph
+@endphp
 <div  class=" row">
   <div class="col-12">
     <div id="printableArea" class="card">

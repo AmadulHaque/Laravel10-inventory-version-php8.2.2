@@ -257,20 +257,48 @@ $setting =DB::table('settings')->first();
 	 // edit row
 	 $(document).on('click', '.delete_row', function(e){
 		 let id = $(this).attr('id_val');
-		 $.ajax({
-	 			 type: 'get',
-	 			 url: "/customer/remove/"+id,
-	 			 success: function (data) {
-					    tableData();
-							Toast.fire({
-									icon: 'success',
-									title:"Customer Remove Successfully!"
-							})
-	 			 }
-	 	 });
-	 });
 
-	 // delete row
+
+
+
+
+const swalWithBootstrapButtons = Swal.mixin({
+      customClass: {
+        confirmButton: 'btn btn-success',
+        cancelButton: 'btn btn-danger'
+      },
+      buttonsStyling: false
+    })
+    swalWithBootstrapButtons.fire({
+      title: 'Are you sure?',
+      text: "You won't be able to revert this!",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonText: 'Yes, delete it!',
+      cancelButtonText: 'No, cancel!',
+      reverseButtons: true
+    }).then((result) => {
+      if (result.isConfirmed) {
+         $.ajax({
+            type: 'get',
+            url: "/customer/remove/"+id,
+            success: function (data) {
+                tableData();
+                Toast.fire({
+                    icon: 'success',
+                    title:"Customer Remove Successfully!"
+                })
+            }
+         });
+      }
+    })
+
+});
+
+
+
+
+	 // edit row
 	 $(document).on('click', '.edit_row', function(e){
 		 let id = $(this).attr('id_val');
 		 	$('.full_scren').removeClass('d-none');
