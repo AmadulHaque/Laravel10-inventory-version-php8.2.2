@@ -9,45 +9,45 @@
       <form id="customerStore" method="post" enctype="multipart/form-data">
           @csrf
           <div class="modal-body">
-            <div class="row mb-3">
+            <div class="row">
               <label for="example-text-input" class="col-12  col-form-label">Customer Name </label>
               <div class="form-group col-12 ">
                 <input name="name" class="form-control" type="text">
               </div>
             </div>
             <!-- end row -->
-            <div class="row mb-3">
+            <div class="row">
               <label for="example-text-input" class="col-12  col-form-label">Customer Mobile </label>
               <div class="form-group col-12 ">
                 <input name="mobile_no" class="form-control" type="text">
               </div>
             </div>
             <!-- end row -->
-            <div class="row mb-3">
+            <div class="row">
               <label for="example-text-input" class="col-12  col-form-label">Customer Email </label>
               <div class="form-group col-12 ">
                 <input name="email" class="form-control" type="email">
               </div>
             </div>
             <!-- end row -->
-            <div class="row mb-3">
+            <div class="row">
               <label for="example-text-input" class="col-12  col-form-label">Customer Address </label>
               <div class="form-group col-12 ">
                 <input name="address" class="form-control" type="text">
               </div>
             </div>
             <!-- end row -->
-            <div class="row mb-3">
+            <div class="row">
               <label for="example-text-input" class="col-12  col-form-label">Customer Image </label>
               <div class="form-group col-12 ">
                 <input name="customer_image" class="form-control" type="file" id="image">
               </div>
             </div>
             <!-- end row -->
-            <div class="row mb-3">
+            <div class="row">
               <label for="example-text-input" class="col-12  col-form-label"></label>
               <div class="col-12 ">
-                <img id="showImage" style="width:50%" class="rounded avatar-lg" src="{{  url('images/no_image.jpeg') }}" alt="Card image cap">
+                <img id="showImage" class="showImage rounded avatar-lg" src="" alt="Customer Image">
               </div>
             </div>
 
