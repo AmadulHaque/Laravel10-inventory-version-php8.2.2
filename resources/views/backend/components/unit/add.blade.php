@@ -10,8 +10,8 @@
           @csrf
           <div class="modal-body">
               <div class="row mb-3">
-                <label for="example-text-input" class="col-sm-2 col-form-label">Unit Name </label>
-                <div class="form-group col-sm-10">
+                <label for="example-text-input" class="col-12  col-form-label">Unit Name </label>
+                <div class="form-group col-12 ">
                   <input name="name" class="form-control" type="text">
                 </div>
               </div>
