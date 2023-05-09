@@ -31,7 +31,7 @@ $setting =DB::table('settings')->first();
 							</div>
 						</div>
 						<hr class="my-4" />
-						<a class="btn btn-outline-success" href="{{route('admin.change.password')}}">Password Setting</a>
+						<a class="btn btn-primary" href="{{route('admin.change.password')}}">Password Setting</a>
 					</div>
 				</div>
 			</div>
